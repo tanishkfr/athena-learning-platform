@@ -1,6 +1,10 @@
 import { createContext, useContext, useEffect, useState, useCallback } from 'react';
+import { mockApi } from './mock';
+
+export const DEMO_MODE = import.meta.env.VITE_DEMO_MODE === 'true';
 
 export async function api(path, body, method = 'POST') {
+  if (DEMO_MODE) return mockApi(path, body, method);
   const response = await fetch('/api' + path, { method: body === undefined ? 'GET' : method, headers: body instanceof FormData ? {} : { 'Content-Type': 'application/json' }, body: body === undefined ? undefined : body instanceof FormData ? body : JSON.stringify(body) });
   const data = await response.json();
   if (!response.ok) throw new Error(data.error || 'The request could not be completed.');
@@ -15,7 +19,7 @@ export function Store({ children }) {
   const mutate = useCallback(async (path, body, method = 'POST') => { const result = await api(path, body, method); await refresh(); return result; }, [refresh]);
   const prefs = data?.preferences.find(p => p.id === 'local');
   useEffect(() => { document.documentElement.dataset.textSize = prefs?.textSize || 'standard'; document.documentElement.dataset.motion = prefs?.reducedMotion ? 'reduced' : 'normal'; }, [prefs]);
-  return <Context.Provider value={{ data, error, refresh, mutate, notice: setNotice, ai, refreshAi: async () => setAi(await api('/ai/status')), prefs }}>{children}{notice && <div className="toast" role="status">{notice}</div>}</Context.Provider>;
+  return <Context.Provider value={{ data, error, refresh, mutate, notice: setNotice, ai, refreshAi: async () => setAi(await api('/ai/status')), prefs, demoMode: DEMO_MODE }}>{children}{notice && <div className="toast" role="status">{notice}</div>}</Context.Provider>;
 }
 export const useStore = () => useContext(Context);
 export function useDraft(key, initial = '') {

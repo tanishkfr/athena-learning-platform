@@ -6,6 +6,8 @@ A local learning workspace built from the supplied Athena PRD, flows, mid-fideli
 
 Requires Node 22.13+ (built-in SQLite), npm and Ollama. Install dependencies with `npm install`, then run `npm run dev`. Open http://127.0.0.1:3000. For a production build, run `npm run build` followed by `npm start`.
 
+The Vercel deployment is intentionally a disconnected demo. Its `VITE_DEMO_MODE` build setting uses browser-local seeded data and localStorage; it does not call the local Express API, SQLite database or Ollama runtime. Changes made there stay in that browser only.
+
 Ollama needs `nomic-embed-text:latest` for indexing and an instruction model. Defaults are `http://127.0.0.1:11434` and `llama3.1:8b`. Configure `OLLAMA_BASE_URL`, `ATHENA_MODEL`, `ATHENA_EMBED_MODEL` and optionally `ATHENA_AI_TIMEOUT_MS` in the launching shell. Model requests are restricted to loopback addresses; no cloud AI credentials are used.
 
 On this machine, the 8B model exhausted available memory. The verification session uses `llama3.2:3b` and a separate local Ollama server at port 11435. The smaller model is less capable; all outputs still pass schema and citation checks, and assessment feedback should be checked against its evidence. `start-local.ps1` starts the same isolated setup without changing the existing Ollama service. Run `ollama pull llama3.2:3b` and `ollama pull nomic-embed-text` first if those models are absent.
