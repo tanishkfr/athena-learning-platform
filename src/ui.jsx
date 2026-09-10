@@ -41,6 +41,9 @@ export function Modal({ title, children, onClose }) {
   return <dialog ref={ref} onCancel={e => { e.preventDefault(); onClose(); }} aria-labelledby="modal-title" onClick={e => { if (e.target === ref.current) onClose(); }}><div className="modal-head"><h2 id="modal-title">{title}</h2><button className="icon-button" aria-label="Close dialog" onClick={onClose}><Icon name="close"/></button></div>{children}</dialog>;
 }
 export function PageHeading({ eyebrow, title, description, children }) { return <header className="page-heading"><div>{eyebrow && <p className="eyebrow">{eyebrow}</p>}<h1>{title}</h1>{description && <p className="muted intro">{description}</p>}</div>{children && <div className="heading-actions">{children}</div>}</header>; }
+export function Breadcrumbs({ project, current }) {
+  return <nav className="breadcrumbs" aria-label="Breadcrumb"><Link to="/projects">Projects</Link><span className="crumb-separator" aria-hidden="true">/</span>{current ? <><Link to={'/projects/' + project.id}>{project.title}</Link><span className="crumb-separator" aria-hidden="true">/</span>{current !== 'Review' && <><Link to={`/projects/${project.id}/review`}>Review</Link><span className="crumb-separator" aria-hidden="true">/</span></>}<span aria-current="page">{current}</span></> : <span aria-current="page">{project.title}</span>}</nav>;
+}
 export function Reference({ chunkId, label }) {
   const location = useLocation();
   const focus = new URLSearchParams(location.search).get('focus') === '1' ? '&focus=1' : '';

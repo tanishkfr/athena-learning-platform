@@ -12,6 +12,10 @@ export async function api(path, body, method = 'POST') {
 }
 const Context = createContext(null);
 export function Store({ children }) {
+  // Prototype identity only: no credentials or backend authentication.
+  const [signedIn, setSignedIn] = useState(() => { try { return sessionStorage.getItem('athena:preview-session') === 'signed-in'; } catch { return false; } });
+  const signIn = () => { try { sessionStorage.setItem('athena:preview-session', 'signed-in'); } catch {} setSignedIn(true); };
+  const signOut = () => { try { sessionStorage.removeItem('athena:preview-session'); } catch {} setSignedIn(false); };
   const [data, setData] = useState(null); const [error, setError] = useState(''); const [notice, setNotice] = useState(''); const [ai, setAi] = useState(null);
   const refresh = useCallback(async () => { try { setData(await api('/state')); setError(''); } catch (e) { setError(e.message); } }, []);
   useEffect(() => { refresh(); api('/ai/status').then(setAi).catch(() => {}); const interval = setInterval(refresh, 2000); return () => clearInterval(interval); }, [refresh]);
@@ -19,7 +23,7 @@ export function Store({ children }) {
   const mutate = useCallback(async (path, body, method = 'POST') => { const result = await api(path, body, method); await refresh(); return result; }, [refresh]);
   const prefs = data?.preferences.find(p => p.id === 'local');
   useEffect(() => { document.documentElement.dataset.textSize = prefs?.textSize || 'standard'; document.documentElement.dataset.motion = prefs?.reducedMotion ? 'reduced' : 'normal'; }, [prefs]);
-  return <Context.Provider value={{ data, error, refresh, mutate, notice: setNotice, ai, refreshAi: async () => setAi(await api('/ai/status')), prefs, demoMode: DEMO_MODE }}>{children}{notice && <div className="toast" role="status">{notice}</div>}</Context.Provider>;
+  return <Context.Provider value={{ data, error, refresh, mutate, notice: setNotice, ai, refreshAi: async () => setAi(await api('/ai/status')), prefs, demoMode: DEMO_MODE, signedIn, signIn, signOut }}>{children}{notice && <div className="toast" role="status">{notice}</div>}</Context.Provider>;
 }
 export const useStore = () => useContext(Context);
 export function useDraft(key, initial = '') {

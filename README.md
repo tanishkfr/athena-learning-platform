@@ -14,15 +14,17 @@ On this machine, the 8B model exhausted available memory. The verification sessi
 
 ## Use
 
-Create a project and learning goal. Add text, a public article URL, a PDF/DOCX document, or a video URL with a supplied transcript. Imports run in the background and retain their original. Read, capture contextual notes, and ask questions against indexed project sources. Mark the project finished when ready; it stays editable.
+Browse the sample discovery library while signed out. Search returns mixed-format sample resources. Saving a resource or submitting new-project details starts the mock sign-up flow; entered project details are preserved and creation resumes afterward. Email login and Google, Apple and Microsoft buttons are browser-only simulations, not real authentication.
+
+Create a project and learning goal. Add text, a public article URL, a PDF/DOCX document, or a video URL with a supplied transcript. Imports run in the background and retain their original. Read, capture contextual notes, and ask questions against indexed project sources. Review a project at any time. Mark it finished from its dashboard card when ready; it stays editable.
 
 Extract concepts and choose a review mode and scope. Attempt a response, record confidence, and optionally request help. Evaluation records evidence against expected facts. Reports link back to sources and separate resource activity from demonstrated knowledge. Weak or assisted concepts receive earlier review dates; Reviews lets you revisit them.
 
-The optional example contains original demo text and no fabricated learning history. The local profile needs no account. Files, notes, embeddings, attempts and schedules are saved under `data/`; browser drafts are stored in local storage. Back up the entire `data/` directory while the app is stopped. Do not expose this single-user prototype to a public network.
+The optional example contains original demo text and no fabricated learning history. The local profile requires no real account; the prototype begins signed out and keeps a mock sign-in state for the browser session. Files, notes, embeddings, attempts and schedules are saved under `data/`; browser drafts are stored in local storage. Back up the entire `data/` directory while the app is stopped. Do not expose this single-user prototype to a public network.
 
 ## Limits
 
-- Search covers your saved local library. Expanded web discovery and resource connections are P1.
+- Home/search discovery uses clearly labelled original placeholder resources, not a live search engine. Sample videos contain illustrative transcripts, not recordings. The saved Library still searches local resources.
 - Scanned PDFs need OCR elsewhere. Unsupported or protected websites remain as failed imports with their original link and retry action.
 - Videos need a supplied transcript for grounding. YouTube uses an embedded player; manual timestamps and transcript links capture source moments. Some providers require opening the original.
 - AI can be unavailable or wrong. Failed generation/evaluation preserves saved work and offers retry; activity and self-confidence never substitute for assessment evidence.

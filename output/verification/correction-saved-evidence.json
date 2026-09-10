@@ -1,0 +1,451 @@
+{
+  "reviews": [
+    {
+      "id": "a1a2233f-0c5c-4fe5-a9d3-2d5b5b8802d3",
+      "projectId": "f2298756-0594-4972-9a41-255650f414d8",
+      "mode": "Explain Back",
+      "conceptIds": [
+        "0da1b98e-faad-4e85-a7ad-5fee8f177bf2"
+      ],
+      "status": "Saved",
+      "createdAt": "2026-09-10T13:23:14.584Z",
+      "error": null,
+      "report": {
+        "createdAt": "2026-09-10T13:35:35.622Z",
+        "attemptIds": [
+          "cdd42d46-1db1-40fe-88ce-16649e65b842"
+        ],
+        "strengths": [
+          {
+            "attemptId": "cdd42d46-1db1-40fe-88ce-16649e65b842",
+            "conceptId": "0da1b98e-faad-4e85-a7ad-5fee8f177bf2",
+            "factIndex": 0,
+            "verdict": "demonstrated",
+            "reason": "The learner correctly states the difference between recognizing and recalling an explanation.",
+            "learnerQuote": "Recognition means identifying an explanation while it is in front of you. Recall means retrieving the idea from memory without the source."
+          }
+        ],
+        "gaps": [],
+        "nextAction": "Practice explaining the difference between recognizing and recalling an explanation in your own words."
+      },
+      "completedAt": "2026-09-10T13:35:35.623Z"
+    },
+    {
+      "id": "6e7e98da-e782-4aa9-ba55-884d924ccb12",
+      "projectId": "f2298756-0594-4972-9a41-255650f414d8",
+      "mode": "Cue Cards",
+      "conceptIds": [
+        "0da1b98e-faad-4e85-a7ad-5fee8f177bf2"
+      ],
+      "status": "Saved",
+      "createdAt": "2026-09-10T13:35:36.706Z",
+      "error": null,
+      "report": {
+        "createdAt": "2026-09-10T13:39:12.599Z",
+        "attemptIds": [
+          "d28c593a-0023-4afe-a858-7179d48e993f"
+        ],
+        "strengths": [
+          {
+            "attemptId": "d28c593a-0023-4afe-a858-7179d48e993f",
+            "conceptId": "0da1b98e-faad-4e85-a7ad-5fee8f177bf2",
+            "factIndex": 0,
+            "verdict": "demonstrated",
+            "reason": "The learner's response accurately conveys the essential meaning of the expected fact.",
+            "learnerQuote": "Recognition identifies an explanation while it is visible."
+          }
+        ],
+        "gaps": [],
+        "nextAction": "Practice explaining the difference between recognising an explanation and retrieving it without the source."
+      },
+      "completedAt": "2026-09-10T13:39:12.599Z"
+    },
+    {
+      "id": "a8e2b36b-c969-4f7e-a819-061a6b5b1981",
+      "projectId": "f2298756-0594-4972-9a41-255650f414d8",
+      "mode": "Apply It",
+      "conceptIds": [
+        "0da1b98e-faad-4e85-a7ad-5fee8f177bf2"
+      ],
+      "status": "Saved",
+      "createdAt": "2026-09-10T13:39:13.632Z",
+      "error": null,
+      "report": {
+        "createdAt": "2026-09-10T17:57:37.153Z",
+        "attemptIds": [
+          "c2a23673-7920-4989-b052-b60cc4896263"
+        ],
+        "strengths": [
+          {
+            "attemptId": "c2a23673-7920-4989-b052-b60cc4896263",
+            "conceptId": "0da1b98e-faad-4e85-a7ad-5fee8f177bf2",
+            "factIndex": 0,
+            "verdict": "demonstrated",
+            "reason": "The learner correctly states that recognizing an explanation while it is visible is different from retrieving it without the source, which aligns with the expected fact.",
+            "learnerQuote": "Seeing the definition supports recognition, whereas retrieving the idea without that visible cue tests recall."
+          }
+        ],
+        "gaps": [],
+        "nextAction": "Practice recalling a term without visible cues to test their ability to retrieve the idea."
+      },
+      "completedAt": "2026-09-10T17:57:37.154Z"
+    }
+  ],
+  "chunks": [
+    {
+      "text": "Recognising an explanation while it is visible is different from retrieving it without the source. Familiarity alone does not demonstrate recall.",
+      "location": {
+        "kind": "timestamp",
+        "seconds": 0,
+        "label": "0:00"
+      },
+      "id": "7f3ba783-64b5-4489-bc28-7a7054b18da3",
+      "projectId": "f2298756-0594-4972-9a41-255650f414d8",
+      "resourceId": "29366de3-7260-46c7-aa48-019e613cd4b2"
+    },
+    {
+      "text": "Close the source and write down the central idea in your own words. Record uncertainty rather than checking the answer immediately.",
+      "location": {
+        "kind": "timestamp",
+        "seconds": 40,
+        "label": "0:40"
+      },
+      "id": "de4c4bf7-601d-49f7-b48d-d5d5f8d5affc",
+      "projectId": "f2298756-0594-4972-9a41-255650f414d8",
+      "resourceId": "29366de3-7260-46c7-aa48-019e613cd4b2"
+    },
+    {
+      "text": "Compare your response with the original. Identify a missing idea or a mistaken connection, then return to that part of the source.",
+      "location": {
+        "kind": "timestamp",
+        "seconds": 80,
+        "label": "1:20"
+      },
+      "id": "ba75825f-f3fa-46bc-bd9c-dffd609235b7",
+      "projectId": "f2298756-0594-4972-9a41-255650f414d8",
+      "resourceId": "29366de3-7260-46c7-aa48-019e613cd4b2"
+    },
+    {
+      "text": "A later attempt without the source can show whether the idea remains retrievable.",
+      "location": {
+        "kind": "timestamp",
+        "seconds": 110,
+        "label": "1:50"
+      },
+      "id": "d0e2dd39-ddb6-4866-bb6d-0b3da685f922",
+      "projectId": "f2298756-0594-4972-9a41-255650f414d8",
+      "resourceId": "29366de3-7260-46c7-aa48-019e613cd4b2"
+    },
+    {
+      "text": "Visual hierarchy communicates relative importance through size, contrast, position and spacing. A large heading names the topic; a smaller subheading groups related information; body text supplies detail.",
+      "location": {
+        "kind": "paragraph",
+        "index": 1,
+        "label": "Paragraph 1",
+        "part": 0
+      },
+      "id": "c9afb01d-af25-443e-81d1-45a622968d22",
+      "projectId": "f2298756-0594-4972-9a41-255650f414d8",
+      "resourceId": "fed664d7-3c68-4064-b8ea-937d730894d6"
+    },
+    {
+      "text": "In this diagram, the largest rectangle represents the main heading, the short orange line represents a section heading, and the repeated thin lines represent body text. Their different sizes make the reading order visible.",
+      "location": {
+        "kind": "paragraph",
+        "index": 2,
+        "label": "Paragraph 2",
+        "part": 0
+      },
+      "id": "32f2d108-0ff5-454e-836a-33ba903c62c0",
+      "projectId": "f2298756-0594-4972-9a41-255650f414d8",
+      "resourceId": "fed664d7-3c68-4064-b8ea-937d730894d6"
+    },
+    {
+      "text": "Reserve the strongest emphasis for the main task. When every element competes equally, the reader has to work harder to decide where to begin.",
+      "location": {
+        "kind": "paragraph",
+        "index": 3,
+        "label": "Paragraph 3",
+        "part": 0
+      },
+      "id": "da66b05b-e2de-4c8e-add9-d5e360df8ba6",
+      "projectId": "f2298756-0594-4972-9a41-255650f414d8",
+      "resourceId": "fed664d7-3c68-4064-b8ea-937d730894d6"
+    }
+  ],
+  "attempts": [
+    {
+      "id": "cdd42d46-1db1-40fe-88ce-16649e65b842",
+      "projectId": "f2298756-0594-4972-9a41-255650f414d8",
+      "reviewId": "a1a2233f-0c5c-4fe5-a9d3-2d5b5b8802d3",
+      "conceptId": "0da1b98e-faad-4e85-a7ad-5fee8f177bf2",
+      "mode": "Explain Back",
+      "prompt": "Explain the difference between recalling and recognizing an explanation in your own words.",
+      "hint": "Think about how you would know if you had read something before versus actually being able to use the information.",
+      "example": "Imagine you see a familiar quote on a billboard. How is that different from reading the quote yourself and being able to use it in a conversation?",
+      "explanation": "Explain how knowing something is familiar is not the same as being able to use it.",
+      "answer": "Knowing something is familiar does not mean you can use it. You can recognize a familiar quote on a billboard, but you wouldn't be able to use it in a conversation. On the other hand, if you read a quote yourself and remember it, you can use it in a conversation. The difference is that recognizing something familiar is just knowing it's familiar, but recalling it means you can use it.",
+      "response": "Recognition means identifying an explanation while it is in front of you. Recall means retrieving the idea from memory without the source. I would close the article, explain the idea independently, and then compare my response with the source to find missing or mistaken points. Familiarity is not proof that I can recall it.",
+      "confidence": "Confident",
+      "assistance": 0,
+      "status": "Evaluated",
+      "createdAt": "2026-09-10T13:23:36.952Z",
+      "updatedAt": "2026-09-10T13:33:10.159Z",
+      "error": null,
+      "evaluation": {
+        "results": [
+          {
+            "factIndex": 0,
+            "verdict": "demonstrated",
+            "reason": "The learner correctly states the difference between recognizing and recalling an explanation.",
+            "learnerQuote": "Recognition means identifying an explanation while it is in front of you. Recall means retrieving the idea from memory without the source."
+          }
+        ],
+        "nextAction": "Practice explaining the difference between recognizing and recalling an explanation in your own words.",
+        "state": "Solid",
+        "references": [
+          "7f3ba783-64b5-4489-bc28-7a7054b18da3"
+        ],
+        "model": "llama3.2:3b",
+        "evaluatedAt": "2026-09-10T13:33:31.327Z",
+        "dimension": "Explain"
+      }
+    },
+    {
+      "id": "d28c593a-0023-4afe-a858-7179d48e993f",
+      "projectId": "f2298756-0594-4972-9a41-255650f414d8",
+      "reviewId": "6e7e98da-e782-4aa9-ba55-884d924ccb12",
+      "conceptId": "0da1b98e-faad-4e85-a7ad-5fee8f177bf2",
+      "mode": "Cue Cards",
+      "prompt": "What is the difference between recognising an explanation and retrieving it without the source?",
+      "hint": "Think about how you would know if you had read something before, versus actually remembering it.",
+      "example": "You see a familiar quote on a poster, but you can't remember where you read it before.",
+      "explanation": "This is an example of recognising an explanation, but not actually retrieving it. You can see the words, but you can't remember where you read them.",
+      "answer": "Recognising an explanation is different from retrieving it without the source. You can see the words, but you can't remember where you read them.",
+      "response": "Recall retrieves an idea without the source. Recognition identifies an explanation while it is visible.",
+      "confidence": "Somewhat confident",
+      "assistance": 4,
+      "status": "Evaluated",
+      "createdAt": "2026-09-10T13:35:54.01Z",
+      "revealed": true,
+      "updatedAt": "2026-09-10T13:37:19.098Z",
+      "selfRating": "Almost",
+      "error": null,
+      "evaluation": {
+        "results": [
+          {
+            "factIndex": 0,
+            "verdict": "demonstrated",
+            "reason": "The learner's response accurately conveys the essential meaning of the expected fact.",
+            "learnerQuote": "Recognition identifies an explanation while it is visible."
+          }
+        ],
+        "nextAction": "Practice explaining the difference between recognising an explanation and retrieving it without the source.",
+        "state": "Developing",
+        "references": [
+          "7f3ba783-64b5-4489-bc28-7a7054b18da3"
+        ],
+        "model": "llama3.2:3b",
+        "evaluatedAt": "2026-09-10T13:37:29.829Z",
+        "dimension": "Recall"
+      }
+    },
+    {
+      "id": "c2a23673-7920-4989-b052-b60cc4896263",
+      "projectId": "f2298756-0594-4972-9a41-255650f414d8",
+      "reviewId": "a8e2b36b-c969-4f7e-a819-061a6b5b1981",
+      "conceptId": "0da1b98e-faad-4e85-a7ad-5fee8f177bf2",
+      "mode": "Apply It",
+      "prompt": "A student is asked to recall the definition of a term they learned in class. They can see the definition on the board, but they are not given the original source material. What should the student do?",
+      "hint": "Think about how you would use the definition you learned in class.",
+      "example": "If you were given a test on the definition, would you be able to answer it correctly?",
+      "explanation": "The student needs to make a decision about how to use the definition they learned in class. They need to consider how they would use the definition in a new situation.",
+      "answer": "The student should try to recall the definition from memory without looking at the original source material.",
+      "scenario": "You are taking a test on a term you learned in class. The teacher asks you to define the term, but you can see the definition on the board. What do you do?",
+      "response": "I would look away from the board and define the term in my own words before checking it. Seeing the definition supports recognition, whereas retrieving the idea without that visible cue tests recall. After my attempt I would compare it with the displayed definition and revisit any missing idea.",
+      "confidence": "Confident",
+      "assistance": 0,
+      "status": "Evaluated",
+      "createdAt": "2026-09-10T13:39:34.919Z",
+      "updatedAt": "2026-09-10T13:41:43.423Z",
+      "error": null,
+      "evaluation": {
+        "results": [
+          {
+            "factIndex": 0,
+            "verdict": "demonstrated",
+            "reason": "The learner correctly states that recognizing an explanation while it is visible is different from retrieving it without the source, which aligns with the expected fact.",
+            "learnerQuote": "Seeing the definition supports recognition, whereas retrieving the idea without that visible cue tests recall."
+          }
+        ],
+        "nextAction": "Practice recalling a term without visible cues to test their ability to retrieve the idea.",
+        "state": "Solid",
+        "references": [
+          "7f3ba783-64b5-4489-bc28-7a7054b18da3"
+        ],
+        "model": "llama3.2:3b",
+        "evaluatedAt": "2026-09-10T13:41:57.262Z",
+        "dimension": "Apply"
+      }
+    }
+  ],
+  "notes": [
+    {
+      "content": "Recognition while reading is different from independent recall.",
+      "resourceId": "29366de3-7260-46c7-aa48-019e613cd4b2",
+      "chunkId": "7f3ba783-64b5-4489-bc28-7a7054b18da3",
+      "quote": "",
+      "seconds": 0,
+      "id": "e2fe5fce-832d-4d5b-b80e-571660c3cce8",
+      "projectId": "f2298756-0594-4972-9a41-255650f414d8",
+      "createdAt": "2026-09-10T13:12:17.861Z"
+    },
+    {
+      "content": "Size and spacing give headings and body text different levels of emphasis.",
+      "resourceId": "fed664d7-3c68-4064-b8ea-937d730894d6",
+      "chunkId": "c9afb01d-af25-443e-81d1-45a622968d22",
+      "quote": "",
+      "seconds": null,
+      "id": "02e29820-6ac9-411e-aa39-4ba60361706b",
+      "projectId": "f2298756-0594-4972-9a41-255650f414d8",
+      "createdAt": "2026-09-10T18:01:14.612Z"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "cdd42d46-1db1-40fe-88ce-16649e65b842",
+      "projectId": "f2298756-0594-4972-9a41-255650f414d8",
+      "conceptId": "0da1b98e-faad-4e85-a7ad-5fee8f177bf2",
+      "attemptId": "cdd42d46-1db1-40fe-88ce-16649e65b842",
+      "dimension": "Explain",
+      "state": "Solid",
+      "assistance": 0,
+      "createdAt": "2026-09-10T13:33:31.327Z"
+    },
+    {
+      "id": "d28c593a-0023-4afe-a858-7179d48e993f",
+      "projectId": "f2298756-0594-4972-9a41-255650f414d8",
+      "conceptId": "0da1b98e-faad-4e85-a7ad-5fee8f177bf2",
+      "attemptId": "d28c593a-0023-4afe-a858-7179d48e993f",
+      "dimension": "Recall",
+      "state": "Developing",
+      "assistance": 4,
+      "createdAt": "2026-09-10T13:37:29.829Z"
+    },
+    {
+      "id": "c2a23673-7920-4989-b052-b60cc4896263",
+      "projectId": "f2298756-0594-4972-9a41-255650f414d8",
+      "conceptId": "0da1b98e-faad-4e85-a7ad-5fee8f177bf2",
+      "attemptId": "c2a23673-7920-4989-b052-b60cc4896263",
+      "dimension": "Apply",
+      "state": "Solid",
+      "assistance": 0,
+      "createdAt": "2026-09-10T13:41:57.262Z"
+    }
+  ],
+  "resources": [
+    {
+      "id": "29366de3-7260-46c7-aa48-019e613cd4b2",
+      "projectId": "f2298756-0594-4972-9a41-255650f414d8",
+      "title": "Reading it again vs remembering it",
+      "type": "video",
+      "sampleId": "retrieval-video",
+      "url": "",
+      "author": "Original prototype example",
+      "source": "Athena sample library",
+      "fileName": null,
+      "status": "Ready",
+      "createdAt": "2026-09-10T13:12:17.615Z",
+      "explored": false,
+      "error": null,
+      "chunkCount": 4,
+      "wordCount": 77,
+      "position": {}
+    },
+    {
+      "id": "fed664d7-3c68-4064-b8ea-937d730894d6",
+      "projectId": "f2298756-0594-4972-9a41-255650f414d8",
+      "title": "Three levels of visual hierarchy",
+      "type": "text",
+      "sampleId": "visual-hierarchy",
+      "url": "",
+      "author": "Original prototype example",
+      "source": "Athena sample library",
+      "fileName": null,
+      "status": "Ready",
+      "createdAt": "2026-09-10T18:01:14.34Z",
+      "explored": false,
+      "error": null,
+      "chunkCount": 3,
+      "wordCount": 85
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Recall is different from recognition",
+      "description": "Recall involves retrieving information from memory without the source, whereas recognition involves recognizing information while it is visible.",
+      "facts": [
+        "Recognising an explanation while it is visible is different from retrieving it without the source."
+      ],
+      "references": [
+        "7f3ba783-64b5-4489-bc28-7a7054b18da3"
+      ],
+      "id": "0da1b98e-faad-4e85-a7ad-5fee8f177bf2",
+      "projectId": "f2298756-0594-4972-9a41-255650f414d8",
+      "resourceId": "29366de3-7260-46c7-aa48-019e613cd4b2",
+      "state": "Solid",
+      "createdAt": "2026-09-10T13:21:22.863Z",
+      "lastReviewedAt": "2026-09-10T13:41:57.262Z"
+    },
+    {
+      "name": "Familiarity does not guarantee recall",
+      "description": "Familiarity alone does not demonstrate recall.",
+      "facts": [
+        "Familiarity alone does not demonstrate recall."
+      ],
+      "references": [
+        "7f3ba783-64b5-4489-bc28-7a7054b18da3"
+      ],
+      "id": "1f77f26f-b5f4-482c-9f6b-334a66677381",
+      "projectId": "f2298756-0594-4972-9a41-255650f414d8",
+      "resourceId": "29366de3-7260-46c7-aa48-019e613cd4b2",
+      "state": "Not Tested",
+      "createdAt": "2026-09-10T13:21:22.864Z"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Discovery verification",
+      "description": "",
+      "goal": "Explain recall and keep source-linked notes.",
+      "preferredFormats": [],
+      "id": "f2298756-0594-4972-9a41-255650f414d8",
+      "status": "Finished",
+      "createdAt": "2026-09-10T13:12:17.537Z",
+      "updatedAt": "2026-09-10T18:01:15.641Z",
+      "lastResourceId": "fed664d7-3c68-4064-b8ea-937d730894d6",
+      "finishedAt": "2026-09-10T18:01:15.641Z"
+    },
+    {
+      "title": "Final auth handoff check",
+      "description": "Temporary final handoff verification",
+      "goal": "Keep the original details through mock signup.",
+      "preferredFormats": [],
+      "id": "3b1b2b17-7952-4896-8994-562f5d8526f6",
+      "status": "Active",
+      "createdAt": "2026-09-10T18:02:06.613Z",
+      "updatedAt": "2026-09-10T18:02:06.613Z"
+    }
+  ],
+  "schedules": [
+    {
+      "id": "0da1b98e-faad-4e85-a7ad-5fee8f177bf2",
+      "projectId": "f2298756-0594-4972-9a41-255650f414d8",
+      "conceptId": "0da1b98e-faad-4e85-a7ad-5fee8f177bf2",
+      "dueAt": "2026-09-24T13:41:57.262Z",
+      "reason": "Reinforce repeated independent evidence.",
+      "intervalDays": 14,
+      "status": "Upcoming"
+    }
+  ]
+}

@@ -8,6 +8,7 @@ import { health } from './ollama.js';
 import { processResource } from './ingestion.js';
 import { answerFromProject, extractConcepts, generateExplainBack, generateCueCards, generateApplicationTask, evaluateResponse, generateInsightReport, simplifySelection, summariseResource } from './learning.js';
 import { seedDemo } from './seed.js';
+import { discoveryResources } from '../shared/discovery.js';
 
 const app = express();
 const port = Number(process.env.PORT || 3000);
@@ -46,17 +47,19 @@ app.post('/api/projects/:id/concepts', async (req, res) => {
 app.post('/api/projects/:id/resources', upload.single('file'), async (req, res) => {
   try {
     must('projects', req.params.id);
-    const input = z.object({ title: z.string().max(180).default(''), type: z.enum(['text', 'article', 'video', 'pdf', 'document']).default('text'), url: z.string().max(3000).default(''), content: z.string().max(1_000_000).default(''), author: z.string().max(200).default('') }).parse(req.body);
-    let type = input.type;
+    const input = z.object({ title: z.string().max(180).default(''), type: z.enum(['text', 'article', 'video', 'pdf', 'document']).default('text'), url: z.string().max(3000).default(''), content: z.string().max(1_000_000).default(''), author: z.string().max(200).default(''), sampleId: z.enum(discoveryResources.map(r => r.id)).optional() }).parse(req.body);
+    const sample = discoveryResources.find(r => r.id === input.sampleId);
+    if (sample) { input.title = sample.title; input.content = sample.content; input.url = ''; input.author = 'Original prototype example'; }
+    let type = sample ? (sample.format === 'Video' ? 'video' : 'text') : input.type;
     if (req.file) {
       const ext = path.extname(req.file.originalname).toLowerCase();
       type = ext === '.pdf' ? 'pdf' : ext === '.docx' ? 'document' : ['.txt', '.md', '.vtt', '.srt'].includes(ext) ? 'text' : null;
       if (!type) throw new Error('Upload a PDF, DOCX, TXT, Markdown, VTT or SRT file.');
     } else if (['pdf', 'document'].includes(type)) throw new Error('Choose a document to upload.');
     if (input.url) { const u = new URL(input.url); if (!['http:', 'https:'].includes(u.protocol)) throw new Error('Use an HTTP or HTTPS URL.'); }
-    if (type === 'video' && !input.url) throw new Error('Add a video URL.');
+    if (type === 'video' && !input.url && !sample) throw new Error('Add a video URL.');
     if (!req.file && !input.content.trim() && !input.url) throw new Error('Add text, a URL or a file.');
-    const resource = put('resources', { id: id(), projectId: req.params.id, title: input.title.trim() || req.file?.originalname || (input.url ? new URL(input.url).hostname : 'Untitled text'), type, url: input.url, input: input.content, author: input.author || null, source: req.file ? 'Uploaded document' : input.url ? new URL(input.url).hostname : 'Learner-provided text', filePath: req.file?.path || null, fileName: req.file?.originalname || null, status: 'Queued', createdAt: now(), explored: false });
+    const resource = put('resources', { id: id(), projectId: req.params.id, title: input.title.trim() || req.file?.originalname || (input.url ? new URL(input.url).hostname : 'Untitled text'), type, sampleId: sample?.id, url: input.url, input: input.content, author: input.author || null, source: sample ? 'Athena sample library' : req.file ? 'Uploaded document' : input.url ? new URL(input.url).hostname : 'Learner-provided text', filePath: req.file?.path || null, fileName: req.file?.originalname || null, status: 'Queued', createdAt: now(), explored: false });
     res.status(202).json({ id: resource.id }); setImmediate(() => processResource(resource.id));
   } catch (e) { if (req.file) await unlink(req.file.path).catch(() => {}); throw e; }
 });
@@ -104,7 +107,7 @@ app.post('/api/projects/:id/simplify', async (req, res) => { must('projects', re
 app.post('/api/resources/:id/summary', async (req, res) => res.json(await summariseResource(must('resources', req.params.id))));
 app.post('/api/projects/:id/reviews', async (req, res) => {
   const project = must('projects', req.params.id);
-  if (project.status === 'Active') throw new Error('Finish the learning phase before starting review. You can keep editing afterwards.');
+
   const input = z.object({ mode: z.enum(['Explain Back', 'Cue Cards', 'Apply It']), conceptIds: z.array(z.string()).min(1).max(6) }).parse(req.body);
   const concepts = [...new Set(input.conceptIds)].map(key => must('concepts', key));
   if (concepts.some(c => c.projectId !== project.id)) throw new Error('Choose concepts from this project.');
@@ -144,7 +147,7 @@ app.post('/api/attempts/:id/evaluate', (req, res) => {
 app.post('/api/reviews/:id/finish', (req, res) => {
   const review = must('reviews', req.params.id); const report = generateInsightReport(review);
   res.json(put('reviews', { ...review, report, status: 'Saved', completedAt: now() }));
-  const project = must('projects', review.projectId); put('projects', { ...project, status: 'Reviewed', updatedAt: now() });
+  const project = must('projects', review.projectId); put('projects', { ...project, updatedAt: now() });
 });
 app.patch('/api/schedules/:id', (req, res) => {
   const schedule = must('schedules', req.params.id);

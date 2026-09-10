@@ -18,6 +18,13 @@ async function structured(instruction, data, schema) {
     const citationSchema = format.properties?.references || format.properties?.concepts?.items?.properties?.references;
     if (citationSchema) citationSchema.items = { type: 'string', enum: allowed };
   }
+  // Match the generated rubric to this concept, including one-fact concepts.
+  // Post-generation validation still rejects omissions and duplicate indexes.
+  if (format.properties?.results && data.facts?.length) {
+    format.properties.results.minItems = data.facts.length;
+    format.properties.results.maxItems = data.facts.length;
+    format.properties.results.items.properties.factIndex = { type: 'integer', enum: data.facts.map(f => f.factIndex) };
+  }
   const raw = await generate(instruction, data, format);
   const result = schema.safeParse(raw);
   if (!result.success) throw new Error('The model response did not pass validation. Your work is saved; retry.');
