@@ -7,3 +7,5 @@ playwright-report/
 .env
 .npm-cache/
 .playwright-mcp/
+
+.vercel
