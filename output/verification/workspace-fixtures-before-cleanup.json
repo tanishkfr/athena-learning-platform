@@ -1,0 +1,820 @@
+{
+  "projects": [
+    {
+      "title": "Interface clarity",
+      "description": "",
+      "goal": "Explain hierarchy, recognition and progressive disclosure, and apply them to a reading interface.",
+      "preferredFormats": [],
+      "id": "bc6fa599-00b0-4b9a-89a1-33335e5bc918",
+      "status": "Finished",
+      "createdAt": "2026-09-09T13:51:31.226Z",
+      "updatedAt": "2026-09-10T07:58:09.807Z",
+      "lastResourceId": "0921f143-2e3e-4e60-8788-a70ea6ec5f86",
+      "finishedAt": "2026-09-09T18:42:28.813Z"
+    },
+    {
+      "title": "Evidence check — learning interface",
+      "description": "",
+      "goal": "Explain how hierarchy and whitespace guide a reader.",
+      "preferredFormats": [],
+      "id": "c8c8efa1-f84e-4ab4-9fb6-cb60711c35b6",
+      "status": "Reviewed",
+      "createdAt": "2026-09-10T03:28:57.338Z",
+      "updatedAt": "2026-09-10T08:08:08.701Z",
+      "finishedAt": "2026-09-10T03:29:25.465Z",
+      "lastResourceId": "be0dc910-a0b3-4bd8-a247-7c67013437f0"
+    }
+  ],
+  "resources": [
+    {
+      "id": "0921f143-2e3e-4e60-8788-a70ea6ec5f86",
+      "projectId": "bc6fa599-00b0-4b9a-89a1-33335e5bc918",
+      "title": "Visual hierarchy",
+      "type": "text",
+      "url": "",
+      "author": null,
+      "source": "Learner-provided text",
+      "fileName": null,
+      "status": "Ready",
+      "createdAt": "2026-09-09T17:33:15.970Z",
+      "explored": true,
+      "error": null,
+      "chunkCount": 3,
+      "wordCount": 102,
+      "position": {
+        "chunkId": "9b77600f-98b9-482d-beca-0ff9d6e5dc14"
+      }
+    },
+    {
+      "id": "34d75515-0c47-4aa3-8256-1311b3a52e87",
+      "projectId": "bc6fa599-00b0-4b9a-89a1-33335e5bc918",
+      "title": "Recognition & progressive disclosure",
+      "type": "pdf",
+      "url": "",
+      "author": null,
+      "source": "Uploaded document",
+      "fileName": "interface-notes.pdf",
+      "status": "Ready",
+      "createdAt": "2026-09-09T18:06:46.426Z",
+      "explored": false,
+      "error": null,
+      "pageCount": 2,
+      "chunkCount": 2,
+      "wordCount": 67
+    },
+    {
+      "id": "37c52934-b1d2-4e43-962d-f729e06103e7",
+      "projectId": "c8c8efa1-f84e-4ab4-9fb6-cb60711c35b6",
+      "title": "Hierarchy and grouping",
+      "type": "text",
+      "url": "",
+      "author": null,
+      "source": "Learner-provided text",
+      "fileName": null,
+      "status": "Ready",
+      "createdAt": "2026-09-10T03:29:01.441Z",
+      "explored": false,
+      "error": null,
+      "chunkCount": 3,
+      "wordCount": 102
+    },
+    {
+      "id": "26ce73ac-0394-48f4-bbbe-80ccb41b86c7",
+      "projectId": "c8c8efa1-f84e-4ab4-9fb6-cb60711c35b6",
+      "title": "Recognition & disclosure — PDF",
+      "type": "pdf",
+      "url": "",
+      "author": null,
+      "source": "Uploaded document",
+      "fileName": "interface-notes.pdf",
+      "status": "Ready",
+      "createdAt": "2026-09-10T03:53:13.002Z",
+      "explored": false,
+      "error": null,
+      "pageCount": 2,
+      "chunkCount": 2,
+      "wordCount": 67,
+      "position": {
+        "chunkId": "59a499e2-d1ab-4509-9a8a-46f1f810bff7"
+      }
+    },
+    {
+      "id": "be0dc910-a0b3-4bd8-a247-7c67013437f0",
+      "projectId": "c8c8efa1-f84e-4ab4-9fb6-cb60711c35b6",
+      "title": "Video verification — timestamp navigation",
+      "type": "video",
+      "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+      "author": null,
+      "source": "interactive-examples.mdn.mozilla.net",
+      "fileName": null,
+      "status": "Ready",
+      "createdAt": "2026-09-10T08:03:02.939Z",
+      "explored": false,
+      "error": null,
+      "chunkCount": 2,
+      "wordCount": 6,
+      "position": {
+        "chunkId": "b30fb92d-15a5-418a-bca4-ecc80e90e4d7",
+        "seconds": 0
+      }
+    }
+  ],
+  "notes": [
+    {
+      "content": "Give the primary action stronger contrast, while keeping secondary actions available. This is about relative emphasis.",
+      "resourceId": "0921f143-2e3e-4e60-8788-a70ea6ec5f86",
+      "chunkId": "9b77600f-98b9-482d-beca-0ff9d6e5dc14",
+      "quote": "",
+      "seconds": null,
+      "id": "0497c2cb-b58d-4bef-a4f9-f45e2db0a50a",
+      "projectId": "bc6fa599-00b0-4b9a-89a1-33335e5bc918",
+      "createdAt": "2026-09-09T18:08:14.035Z"
+    },
+    {
+      "content": "Keep essential navigation visible; reveal secondary details only when relevant.",
+      "resourceId": "26ce73ac-0394-48f4-bbbe-80ccb41b86c7",
+      "chunkId": "59a499e2-d1ab-4509-9a8a-46f1f810bff7",
+      "quote": "",
+      "seconds": null,
+      "id": "70d2e5f8-6c39-4f16-9ce7-a541312261cd",
+      "projectId": "c8c8efa1-f84e-4ab4-9fb6-cb60711c35b6",
+      "createdAt": "2026-09-10T03:54:08.006Z"
+    },
+    {
+      "content": "Timestamp fixture: return to the one-second source position.",
+      "resourceId": "be0dc910-a0b3-4bd8-a247-7c67013437f0",
+      "chunkId": "390d4501-dd60-478b-97be-f18d04be17ea",
+      "quote": "",
+      "seconds": 1,
+      "id": "260442bd-637f-49c6-a978-3fd3169b8cb4",
+      "projectId": "c8c8efa1-f84e-4ab4-9fb6-cb60711c35b6",
+      "createdAt": "2026-09-10T08:03:50.205Z"
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Visual Hierarchy",
+      "description": "The ordering of elements to communicate their relative importance.",
+      "facts": [
+        "Size, contrast, position, and spacing help a reader recognise what to attend to first.",
+        "A heading should organise the content below it rather than merely decorate the page.",
+        "Reserve the strongest contrast for the primary action or most important information."
+      ],
+      "references": [
+        "a84b37cc-b45f-4c18-8699-b0bd6118fcc4"
+      ],
+      "id": "2cb02bee-c50e-421a-86d0-de6ea697b216",
+      "projectId": "bc6fa599-00b0-4b9a-89a1-33335e5bc918",
+      "resourceId": "0921f143-2e3e-4e60-8788-a70ea6ec5f86",
+      "state": "Not Tested",
+      "createdAt": "2026-09-10T02:55:11.270Z"
+    },
+    {
+      "name": "Recognition",
+      "description": "The ability to identify and understand the importance of elements in a visual hierarchy.",
+      "facts": [
+        "Elements placed close together are often understood as related.",
+        "Space between groups helps people separate tasks or topics."
+      ],
+      "references": [
+        "2c3f4e28-95b8-447f-926a-e706675c8002"
+      ],
+      "id": "11b5d748-031f-4fba-9982-9a99a7f300a8",
+      "projectId": "bc6fa599-00b0-4b9a-89a1-33335e5bc918",
+      "resourceId": "0921f143-2e3e-4e60-8788-a70ea6ec5f86",
+      "state": "Not Tested",
+      "createdAt": "2026-09-10T02:55:11.270Z"
+    },
+    {
+      "name": "Progressive Disclosure",
+      "description": "The gradual reveal of information and actions to guide the user's attention.",
+      "facts": [
+        "Whitespace can communicate structure without adding extra boxes or instructions."
+      ],
+      "references": [
+        "9b77600f-98b9-482d-beca-0ff9d6e5dc14"
+      ],
+      "id": "0048adca-f1cd-4dcc-9721-525b3bafe096",
+      "projectId": "bc6fa599-00b0-4b9a-89a1-33335e5bc918",
+      "resourceId": "0921f143-2e3e-4e60-8788-a70ea6ec5f86",
+      "state": "Not Tested",
+      "createdAt": "2026-09-10T02:55:11.270Z"
+    },
+    {
+      "name": "Relevant Interface Choices",
+      "description": "Keep relevant interface choices visible to reduce memory demands.",
+      "facts": [
+        "A learner recognising a familiar paragraph has not yet shown recall."
+      ],
+      "references": [
+        "74dbfefc-b513-4630-b50f-30d0d059e652"
+      ],
+      "id": "160e66e9-f5af-496f-95c9-6309dcd94208",
+      "projectId": "bc6fa599-00b0-4b9a-89a1-33335e5bc918",
+      "resourceId": "34d75515-0c47-4aa3-8256-1311b3a52e87",
+      "state": "Not Tested",
+      "createdAt": "2026-09-10T02:55:29.687Z"
+    },
+    {
+      "name": "Progressive Disclosure",
+      "description": "Progressive disclosure reveals secondary details when they are relevant.",
+      "facts": [
+        "Hiding essential navigation would make the interface harder to use."
+      ],
+      "references": [
+        "07284f59-c443-4e34-9cee-d2eee0bc204a"
+      ],
+      "id": "b02789d9-f095-485f-8b67-aee0bf51feff",
+      "projectId": "bc6fa599-00b0-4b9a-89a1-33335e5bc918",
+      "resourceId": "34d75515-0c47-4aa3-8256-1311b3a52e87",
+      "state": "Not Tested",
+      "createdAt": "2026-09-10T02:55:29.687Z"
+    },
+    {
+      "name": "Use of size in visual hierarchy",
+      "description": "Size helps a reader recognise what to attend to first.",
+      "facts": [
+        "Size, contrast, position and spacing help a reader recognise what to attend to first."
+      ],
+      "references": [
+        "8d0e475f-41ff-43cd-82eb-d5fe5056944a"
+      ],
+      "id": "da363c27-65c9-49c6-9155-4ee863f98f6a",
+      "projectId": "c8c8efa1-f84e-4ab4-9fb6-cb60711c35b6",
+      "resourceId": "37c52934-b1d2-4e43-962d-f729e06103e7",
+      "state": "Developing",
+      "createdAt": "2026-09-10T03:29:37.403Z",
+      "lastReviewedAt": "2026-09-10T03:39:24.712Z"
+    },
+    {
+      "name": "Reserving contrast for primary action",
+      "description": "Reserve the strongest contrast for the primary action or most important information.",
+      "facts": [
+        "Reserve the strongest contrast for the primary action or most important information."
+      ],
+      "references": [
+        "fc36911a-c5ed-4230-a4c1-054becc92cd7"
+      ],
+      "id": "20b7f9d1-58ad-4a52-8cc4-7bd47743e25f",
+      "projectId": "c8c8efa1-f84e-4ab4-9fb6-cb60711c35b6",
+      "resourceId": "37c52934-b1d2-4e43-962d-f729e06103e7",
+      "state": "Solid",
+      "createdAt": "2026-09-10T03:29:37.403Z",
+      "lastReviewedAt": "2026-09-10T03:34:21.401Z"
+    },
+    {
+      "name": "Using whitespace to communicate structure",
+      "description": "Whitespace can communicate structure without adding extra boxes or instructions.",
+      "facts": [
+        "Space between groups helps people separate tasks or topics. Whitespace can communicate structure without adding extra boxes or instructions."
+      ],
+      "references": [
+        "07d301b2-12ca-4267-960b-461bf46c5f0e"
+      ],
+      "id": "12fb7c0e-712e-49fc-8174-410303ccbe37",
+      "projectId": "c8c8efa1-f84e-4ab4-9fb6-cb60711c35b6",
+      "resourceId": "37c52934-b1d2-4e43-962d-f729e06103e7",
+      "state": "Developing",
+      "createdAt": "2026-09-10T03:29:37.403Z",
+      "lastReviewedAt": "2026-09-10T03:45:55.133Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "e5ece12f-a32e-48d4-b3fe-e5ab86916829",
+      "projectId": "c8c8efa1-f84e-4ab4-9fb6-cb60711c35b6",
+      "mode": "Explain Back",
+      "conceptIds": [
+        "da363c27-65c9-49c6-9155-4ee863f98f6a",
+        "20b7f9d1-58ad-4a52-8cc4-7bd47743e25f"
+      ],
+      "status": "Saved",
+      "createdAt": "2026-09-10T03:30:57.343Z",
+      "error": null,
+      "report": {
+        "createdAt": "2026-09-10T03:35:34.860Z",
+        "attemptIds": [
+          "fbf74713-a4a6-4e06-adb6-2da22be0454b",
+          "bb46839a-8ce6-4938-bd14-04d2bd7b2351"
+        ],
+        "strengths": [
+          {
+            "attemptId": "bb46839a-8ce6-4938-bd14-04d2bd7b2351",
+            "conceptId": "20b7f9d1-58ad-4a52-8cc4-7bd47743e25f",
+            "factIndex": 0,
+            "verdict": "demonstrated",
+            "reason": "The learner's response accurately conveys the essential meaning of reserving contrast for primary action, stating that the strongest contrast should be given to the primary action or most important information, while secondary actions can have less emphasis.",
+            "learnerQuote": "Give the primary action or most important information the strongest contrast, so it stands out first."
+          }
+        ],
+        "gaps": [
+          {
+            "attemptId": "fbf74713-a4a6-4e06-adb6-2da22be0454b",
+            "conceptId": "da363c27-65c9-49c6-9155-4ee863f98f6a",
+            "factIndex": 0,
+            "verdict": "incorrect",
+            "reason": "The learner response suggests making everything equally large and prominent, which contradicts the expected fact that size, contrast, position, and spacing help a reader recognise what to attend to first. The source text states that a heading should organise the content below it, not merely decorate the page.",
+            "learnerQuote": "I think it means making everything equally large and prominent."
+          }
+        ],
+        "nextAction": "Study the concept of visual hierarchy and its elements, including size, contrast, position, and spacing, to understand how they contribute to a reader's attention."
+      },
+      "completedAt": "2026-09-10T03:35:34.860Z"
+    },
+    {
+      "id": "e5f939c9-0ef1-4f14-862a-86c9f06bb78c",
+      "projectId": "c8c8efa1-f84e-4ab4-9fb6-cb60711c35b6",
+      "mode": "Cue Cards",
+      "conceptIds": [
+        "da363c27-65c9-49c6-9155-4ee863f98f6a"
+      ],
+      "status": "Saved",
+      "createdAt": "2026-09-10T03:36:08.176Z",
+      "error": null,
+      "report": {
+        "createdAt": "2026-09-10T03:40:24.693Z",
+        "attemptIds": [
+          "9820b0ab-48d4-4191-9087-ecd20a6b7366"
+        ],
+        "strengths": [
+          {
+            "attemptId": "9820b0ab-48d4-4191-9087-ecd20a6b7366",
+            "conceptId": "da363c27-65c9-49c6-9155-4ee863f98f6a",
+            "factIndex": 0,
+            "verdict": "demonstrated",
+            "reason": "The learner response accurately paraphrases the expected fact, conveying the essential meaning correctly.",
+            "learnerQuote": "Larger important elements draw attention first, together with contrast, position and spacing."
+          }
+        ],
+        "gaps": [],
+        "nextAction": "Practice creating a visual hierarchy with varying element sizes, contrasts, positions, and spacings to understand how these elements contribute to the overall hierarchy."
+      },
+      "completedAt": "2026-09-10T03:40:24.693Z"
+    },
+    {
+      "id": "a50eb72e-5975-4ece-aafe-ee126df33ebe",
+      "projectId": "c8c8efa1-f84e-4ab4-9fb6-cb60711c35b6",
+      "mode": "Apply It",
+      "conceptIds": [
+        "12fb7c0e-712e-49fc-8174-410303ccbe37"
+      ],
+      "status": "In Progress",
+      "createdAt": "2026-09-10T03:40:40.012Z",
+      "error": null
+    },
+    {
+      "id": "24a8d71b-7c2f-4e11-abc2-550c6a7d469d",
+      "projectId": "c8c8efa1-f84e-4ab4-9fb6-cb60711c35b6",
+      "mode": "Apply It",
+      "conceptIds": [
+        "12fb7c0e-712e-49fc-8174-410303ccbe37"
+      ],
+      "status": "Saved",
+      "createdAt": "2026-09-10T03:43:16.713Z",
+      "error": null,
+      "report": {
+        "createdAt": "2026-09-10T03:47:25.629Z",
+        "attemptIds": [
+          "dedc88cc-c0a2-4e9f-b1ce-79f8c0b871ea"
+        ],
+        "strengths": [
+          {
+            "attemptId": "dedc88cc-c0a2-4e9f-b1ce-79f8c0b871ea",
+            "conceptId": "12fb7c0e-712e-49fc-8174-410303ccbe37",
+            "factIndex": 0,
+            "verdict": "demonstrated",
+            "reason": "The learner's response accurately conveys the essential meaning of the expected fact. They correctly paraphrased the fact, 'Space between groups helps people separate tasks or topics. Whitespace can communicate structure without adding extra boxes or instructions.'",
+            "learnerQuote": "I would keep related content close together and use larger whitespace gaps between sections. Those gaps separate tasks and topics and make the page structure readable without adding extra boxes or instructions."
+          }
+        ],
+        "gaps": [],
+        "nextAction": "Design a wireframe with related content close together and larger whitespace gaps between sections to make the content more readable."
+      },
+      "completedAt": "2026-09-10T03:47:25.630Z"
+    },
+    {
+      "id": "41a56edb-3758-4859-8f63-a3b8fbc24b3a",
+      "projectId": "c8c8efa1-f84e-4ab4-9fb6-cb60711c35b6",
+      "mode": "Explain Back",
+      "conceptIds": [
+        "12fb7c0e-712e-49fc-8174-410303ccbe37"
+      ],
+      "status": "In Progress",
+      "createdAt": "2026-09-10T03:47:58.299Z",
+      "error": null
+    }
+  ],
+  "attempts": [
+    {
+      "id": "fbf74713-a4a6-4e06-adb6-2da22be0454b",
+      "projectId": "c8c8efa1-f84e-4ab4-9fb6-cb60711c35b6",
+      "reviewId": "e5ece12f-a32e-48d4-b3fe-e5ab86916829",
+      "conceptId": "da363c27-65c9-49c6-9155-4ee863f98f6a",
+      "mode": "Explain Back",
+      "prompt": "Explain the use of size in visual hierarchy in your own words",
+      "hint": "Think about how elements are arranged on a page to guide the reader's attention",
+      "example": "Consider a website with a prominent call-to-action button",
+      "explanation": "The size of an element can help draw the reader's attention to it first, making it more noticeable than other elements on the page.",
+      "answer": "The size of an element can help draw the reader's attention to it first, making it more noticeable than other elements on the page.",
+      "response": "I think it means making everything equally large and prominent.",
+      "confidence": "Confident",
+      "assistance": 0,
+      "status": "Evaluated",
+      "createdAt": "2026-09-10T03:30:59.314Z",
+      "updatedAt": "2026-09-10T03:32:23.064Z",
+      "error": null,
+      "evaluation": {
+        "results": [
+          {
+            "factIndex": 0,
+            "verdict": "incorrect",
+            "reason": "The learner response suggests making everything equally large and prominent, which contradicts the expected fact that size, contrast, position, and spacing help a reader recognise what to attend to first. The source text states that a heading should organise the content below it, not merely decorate the page.",
+            "learnerQuote": "I think it means making everything equally large and prominent."
+          }
+        ],
+        "nextAction": "Study the concept of visual hierarchy and its elements, including size, contrast, position, and spacing, to understand how they contribute to a reader's attention.",
+        "state": "Review",
+        "references": [
+          "8d0e475f-41ff-43cd-82eb-d5fe5056944a"
+        ],
+        "model": "llama3.2:3b",
+        "evaluatedAt": "2026-09-10T03:32:25.373Z",
+        "dimension": "Explain"
+      }
+    },
+    {
+      "id": "bb46839a-8ce6-4938-bd14-04d2bd7b2351",
+      "projectId": "c8c8efa1-f84e-4ab4-9fb6-cb60711c35b6",
+      "reviewId": "e5ece12f-a32e-48d4-b3fe-e5ab86916829",
+      "conceptId": "20b7f9d1-58ad-4a52-8cc4-7bd47743e25f",
+      "mode": "Explain Back",
+      "prompt": "Explain the concept of reserving contrast for primary action in own words",
+      "hint": "Use an analogy to help explain the concept",
+      "example": "Think of a map with multiple routes to a destination. The most important route should be highlighted with the strongest contrast to help the user navigate easily.",
+      "explanation": "The concept of reserving contrast for primary action means that the strongest visual difference should be used to draw attention to the most important element on the screen. This helps the user quickly understand what action to take or what information is most important. By reserving contrast for the primary action, the interface can guide the user's attention and make the information more accessible.",
+      "answer": "Reserving contrast for primary action means using the strongest visual difference to draw attention to the most important element on the screen, helping the user quickly understand what action to take or what information is most important.",
+      "response": "Give the primary action or most important information the strongest contrast, so it stands out first. Secondary actions can stay visible with less emphasis instead of competing equally for attention.",
+      "confidence": "Somewhat confident",
+      "assistance": 0,
+      "status": "Evaluated",
+      "createdAt": "2026-09-10T03:31:01.567Z",
+      "updatedAt": "2026-09-10T03:34:19.168Z",
+      "error": null,
+      "evaluation": {
+        "results": [
+          {
+            "factIndex": 0,
+            "verdict": "demonstrated",
+            "reason": "The learner's response accurately conveys the essential meaning of reserving contrast for primary action, stating that the strongest contrast should be given to the primary action or most important information, while secondary actions can have less emphasis.",
+            "learnerQuote": "Give the primary action or most important information the strongest contrast, so it stands out first."
+          }
+        ],
+        "nextAction": "Practice designing an interface with clear primary and secondary actions using contrasting colors and layouts.",
+        "state": "Solid",
+        "references": [
+          "fc36911a-c5ed-4230-a4c1-054becc92cd7"
+        ],
+        "model": "llama3.2:3b",
+        "evaluatedAt": "2026-09-10T03:34:21.401Z",
+        "dimension": "Explain"
+      }
+    },
+    {
+      "id": "9820b0ab-48d4-4191-9087-ecd20a6b7366",
+      "projectId": "c8c8efa1-f84e-4ab4-9fb6-cb60711c35b6",
+      "reviewId": "e5f939c9-0ef1-4f14-862a-86c9f06bb78c",
+      "conceptId": "da363c27-65c9-49c6-9155-4ee863f98f6a",
+      "mode": "Cue Cards",
+      "prompt": "What role does size play in creating a visual hierarchy?",
+      "hint": "Think about how size affects the way we look at different elements on a page.",
+      "example": "A large headline on a website draws the user's attention more than a small paragraph of text.",
+      "explanation": "Size helps guide the reader's eye through the content, making it easier to understand the structure and organization of the page.",
+      "answer": "Size is used to create a visual hierarchy by drawing the reader's attention to certain elements first.",
+      "response": "Larger important elements draw attention first, together with contrast, position and spacing.",
+      "confidence": "Somewhat confident",
+      "assistance": 4,
+      "status": "Evaluated",
+      "createdAt": "2026-09-10T03:36:10.105Z",
+      "updatedAt": "2026-09-10T03:39:18.256Z",
+      "revealed": true,
+      "selfRating": "Knew it",
+      "error": null,
+      "evaluation": {
+        "results": [
+          {
+            "factIndex": 0,
+            "verdict": "demonstrated",
+            "reason": "The learner response accurately paraphrases the expected fact, conveying the essential meaning correctly.",
+            "learnerQuote": "Larger important elements draw attention first, together with contrast, position and spacing."
+          }
+        ],
+        "nextAction": "Practice creating a visual hierarchy with varying element sizes, contrasts, positions, and spacings to understand how these elements contribute to the overall hierarchy.",
+        "state": "Developing",
+        "references": [
+          "8d0e475f-41ff-43cd-82eb-d5fe5056944a"
+        ],
+        "model": "llama3.2:3b",
+        "evaluatedAt": "2026-09-10T03:39:24.712Z",
+        "dimension": "Recall"
+      }
+    },
+    {
+      "id": "e67df327-ff84-4c45-9105-5dc5cd8080dc",
+      "projectId": "c8c8efa1-f84e-4ab4-9fb6-cb60711c35b6",
+      "reviewId": "a50eb72e-5975-4ece-aafe-ee126df33ebe",
+      "conceptId": "12fb7c0e-712e-49fc-8174-410303ccbe37",
+      "mode": "Apply It",
+      "prompt": "Apply It",
+      "hint": "Think about how you organize your notes or a presentation.",
+      "example": "Imagine you're creating a presentation about a recent trip. You want to separate the introduction from the rest of the content.",
+      "explanation": "What structure would you use to organize the content of your presentation?",
+      "answer": "null",
+      "response": "",
+      "confidence": "",
+      "assistance": 0,
+      "status": "Draft",
+      "createdAt": "2026-09-10T03:40:41.645Z"
+    },
+    {
+      "id": "dedc88cc-c0a2-4e9f-b1ce-79f8c0b871ea",
+      "projectId": "c8c8efa1-f84e-4ab4-9fb6-cb60711c35b6",
+      "reviewId": "24a8d71b-7c2f-4e11-abc2-550c6a7d469d",
+      "conceptId": "12fb7c0e-712e-49fc-8174-410303ccbe37",
+      "mode": "Apply It",
+      "prompt": "You are the lead designer on a new website project. The client wants to organize the content into sections, but they're not sure how to do it. They want the website to be easy to navigate and understand. What approach should you use to separate the different sections and make the content more readable?\n\nA new website is being designed. The developer wants to organize the content into sections. What approach should they use to separate the different sections and make the content more readable?",
+      "hint": "Think about how people navigate and understand different types of content online.",
+      "example": "Consider a blog with multiple articles. How would you organize the articles to make it easy for readers to find what they're looking for?",
+      "explanation": "The developer should use whitespace to separate the different sections and make the content more readable. This will help people understand the structure of the website and navigate it more easily.",
+      "answer": "Using whitespace to separate sections and make the content more readable",
+      "scenario": "You are the lead designer on a new website project. The client wants to organize the content into sections, but they're not sure how to do it. They want the website to be easy to navigate and understand. What approach should you use to separate the different sections and make the content more readable?",
+      "response": "I would keep related content close together and use larger whitespace gaps between sections. Those gaps separate tasks and topics and make the page structure readable without adding extra boxes or instructions.",
+      "confidence": "Not confident",
+      "assistance": 4,
+      "status": "Evaluated",
+      "createdAt": "2026-09-10T03:43:29.733Z",
+      "updatedAt": "2026-09-10T03:45:52.665Z",
+      "error": null,
+      "evaluation": {
+        "results": [
+          {
+            "factIndex": 0,
+            "verdict": "demonstrated",
+            "reason": "The learner's response accurately conveys the essential meaning of the expected fact. They correctly paraphrased the fact, 'Space between groups helps people separate tasks or topics. Whitespace can communicate structure without adding extra boxes or instructions.'",
+            "learnerQuote": "I would keep related content close together and use larger whitespace gaps between sections. Those gaps separate tasks and topics and make the page structure readable without adding extra boxes or instructions."
+          }
+        ],
+        "nextAction": "Design a wireframe with related content close together and larger whitespace gaps between sections to make the content more readable.",
+        "state": "Developing",
+        "references": [
+          "07d301b2-12ca-4267-960b-461bf46c5f0e"
+        ],
+        "model": "llama3.2:3b",
+        "evaluatedAt": "2026-09-10T03:45:55.133Z",
+        "dimension": "Apply"
+      }
+    },
+    {
+      "id": "2c3b2ffe-c010-4456-b94d-d454d37f7c9f",
+      "projectId": "c8c8efa1-f84e-4ab4-9fb6-cb60711c35b6",
+      "reviewId": "41a56edb-3758-4859-8f63-a3b8fbc24b3a",
+      "conceptId": "12fb7c0e-712e-49fc-8174-410303ccbe37",
+      "mode": "Explain Back",
+      "prompt": "Explain how using whitespace can help people understand the structure of information, and provide an example of how it can be used in a real-world context.",
+      "hint": "Think about how you organize your notes or documents. How can you use whitespace to make it easier for others to understand the structure of your content?",
+      "example": "Imagine you are designing a website. How can you use whitespace to separate different sections or topics, making it easier for users to navigate the site?",
+      "explanation": "The learner should explain how using whitespace can help people understand the structure of information, and provide an example of how it can be used in a real-world context. The explanation should cover the expected facts, such as the importance of space between groups and the ability of whitespace to communicate structure without adding extra boxes or instructions.",
+      "answer": "Using whitespace can help people understand the structure of information by providing a clear visual separation between different tasks or topics. This can be achieved by using space between groups, such as headings, subheadings, and bullet points, to create a clear hierarchy and organization. By using whitespace effectively, designers and writers can communicate structure without adding extra boxes or instructions, making it easier for others to understand and navigate the content.",
+      "response": "Draft for later: separate groups with space so related content is easier to recognise.",
+      "confidence": "",
+      "assistance": 0,
+      "status": "Draft",
+      "createdAt": "2026-09-10T03:48:01.958Z",
+      "updatedAt": "2026-09-10T03:48:58.133Z"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "fbf74713-a4a6-4e06-adb6-2da22be0454b",
+      "projectId": "c8c8efa1-f84e-4ab4-9fb6-cb60711c35b6",
+      "conceptId": "da363c27-65c9-49c6-9155-4ee863f98f6a",
+      "attemptId": "fbf74713-a4a6-4e06-adb6-2da22be0454b",
+      "dimension": "Explain",
+      "state": "Review",
+      "assistance": 0,
+      "createdAt": "2026-09-10T03:32:25.374Z"
+    },
+    {
+      "id": "bb46839a-8ce6-4938-bd14-04d2bd7b2351",
+      "projectId": "c8c8efa1-f84e-4ab4-9fb6-cb60711c35b6",
+      "conceptId": "20b7f9d1-58ad-4a52-8cc4-7bd47743e25f",
+      "attemptId": "bb46839a-8ce6-4938-bd14-04d2bd7b2351",
+      "dimension": "Explain",
+      "state": "Solid",
+      "assistance": 0,
+      "createdAt": "2026-09-10T03:34:21.401Z"
+    },
+    {
+      "id": "9820b0ab-48d4-4191-9087-ecd20a6b7366",
+      "projectId": "c8c8efa1-f84e-4ab4-9fb6-cb60711c35b6",
+      "conceptId": "da363c27-65c9-49c6-9155-4ee863f98f6a",
+      "attemptId": "9820b0ab-48d4-4191-9087-ecd20a6b7366",
+      "dimension": "Recall",
+      "state": "Developing",
+      "assistance": 4,
+      "createdAt": "2026-09-10T03:39:24.712Z"
+    },
+    {
+      "id": "dedc88cc-c0a2-4e9f-b1ce-79f8c0b871ea",
+      "projectId": "c8c8efa1-f84e-4ab4-9fb6-cb60711c35b6",
+      "conceptId": "12fb7c0e-712e-49fc-8174-410303ccbe37",
+      "attemptId": "dedc88cc-c0a2-4e9f-b1ce-79f8c0b871ea",
+      "dimension": "Apply",
+      "state": "Developing",
+      "assistance": 4,
+      "createdAt": "2026-09-10T03:45:55.133Z"
+    }
+  ],
+  "schedules": [
+    {
+      "id": "da363c27-65c9-49c6-9155-4ee863f98f6a",
+      "projectId": "c8c8efa1-f84e-4ab4-9fb6-cb60711c35b6",
+      "conceptId": "da363c27-65c9-49c6-9155-4ee863f98f6a",
+      "dueAt": "2026-09-13T03:39:24.712Z",
+      "reason": "Build on developing or assisted evidence.",
+      "intervalDays": 3,
+      "status": "Upcoming"
+    },
+    {
+      "id": "20b7f9d1-58ad-4a52-8cc4-7bd47743e25f",
+      "projectId": "c8c8efa1-f84e-4ab4-9fb6-cb60711c35b6",
+      "conceptId": "20b7f9d1-58ad-4a52-8cc4-7bd47743e25f",
+      "dueAt": "2026-09-17T03:34:21.401Z",
+      "reason": "Revisit after strong independent evidence.",
+      "intervalDays": 7,
+      "status": "Upcoming"
+    },
+    {
+      "id": "12fb7c0e-712e-49fc-8174-410303ccbe37",
+      "projectId": "c8c8efa1-f84e-4ab4-9fb6-cb60711c35b6",
+      "conceptId": "12fb7c0e-712e-49fc-8174-410303ccbe37",
+      "dueAt": "2026-09-09T03:30:00.000Z",
+      "reason": "Build on developing or assisted evidence.",
+      "intervalDays": 3,
+      "status": "Postponed"
+    }
+  ],
+  "preferences": [
+    {
+      "id": "local",
+      "name": "Learner",
+      "view": "list",
+      "textSize": "standard",
+      "reducedMotion": false,
+      "reminders": false
+    }
+  ],
+  "chunks": [
+    {
+      "text": "Visual hierarchy is the ordering of elements to communicate their relative importance. Size, contrast, position and spacing help a reader recognise what to attend to first. A heading should organise the content below it rather than merely decorate the page.",
+      "location": {
+        "kind": "paragraph",
+        "index": 1,
+        "label": "Paragraph 1",
+        "part": 0
+      },
+      "id": "a84b37cc-b45f-4c18-8699-b0bd6118fcc4",
+      "projectId": "bc6fa599-00b0-4b9a-89a1-33335e5bc918",
+      "resourceId": "0921f143-2e3e-4e60-8788-a70ea6ec5f86"
+    },
+    {
+      "text": "When every element is equally prominent, an interface gives little guidance about what matters. Reserve the strongest contrast for the primary action or most important information. Secondary actions can remain visible with lower emphasis.",
+      "location": {
+        "kind": "paragraph",
+        "index": 2,
+        "label": "Paragraph 2",
+        "part": 0
+      },
+      "id": "9b77600f-98b9-482d-beca-0ff9d6e5dc14",
+      "projectId": "bc6fa599-00b0-4b9a-89a1-33335e5bc918",
+      "resourceId": "0921f143-2e3e-4e60-8788-a70ea6ec5f86"
+    },
+    {
+      "text": "Elements placed close together are often understood as related. Space between groups helps people separate tasks or topics. Whitespace can communicate structure without adding extra boxes or instructions.",
+      "location": {
+        "kind": "paragraph",
+        "index": 3,
+        "label": "Paragraph 3",
+        "part": 0
+      },
+      "id": "2c3f4e28-95b8-447f-926a-e706675c8002",
+      "projectId": "bc6fa599-00b0-4b9a-89a1-33335e5bc918",
+      "resourceId": "0921f143-2e3e-4e60-8788-a70ea6ec5f86"
+    },
+    {
+      "text": "Recognition and recall \nRecognition identifies information when a cue is present.\nRecall retrieves information without that cue.\nKeep relevant interface choices visible to reduce memory demands.\nA learner recognising a familiar paragraph has not yet shown recall.",
+      "location": {
+        "kind": "page",
+        "index": 1,
+        "label": "Page 1",
+        "part": 0
+      },
+      "id": "74dbfefc-b513-4630-b50f-30d0d059e652",
+      "projectId": "bc6fa599-00b0-4b9a-89a1-33335e5bc918",
+      "resourceId": "34d75515-0c47-4aa3-8256-1311b3a52e87"
+    },
+    {
+      "text": "Progressive disclosure \nProgressive disclosure reveals secondary details when they are relevant.\nKeep essential actions visible and label optional controls clearly.\nHiding essential navigation would make the interface harder to use.",
+      "location": {
+        "kind": "page",
+        "index": 2,
+        "label": "Page 2",
+        "part": 0
+      },
+      "id": "07284f59-c443-4e34-9cee-d2eee0bc204a",
+      "projectId": "bc6fa599-00b0-4b9a-89a1-33335e5bc918",
+      "resourceId": "34d75515-0c47-4aa3-8256-1311b3a52e87"
+    },
+    {
+      "text": "Visual hierarchy is the ordering of elements to communicate their relative importance. Size, contrast, position and spacing help a reader recognise what to attend to first. A heading should organise the content below it rather than merely decorate the page.",
+      "location": {
+        "kind": "paragraph",
+        "index": 1,
+        "label": "Paragraph 1",
+        "part": 0
+      },
+      "id": "8d0e475f-41ff-43cd-82eb-d5fe5056944a",
+      "projectId": "c8c8efa1-f84e-4ab4-9fb6-cb60711c35b6",
+      "resourceId": "37c52934-b1d2-4e43-962d-f729e06103e7"
+    },
+    {
+      "text": "When every element is equally prominent, an interface gives little guidance about what matters. Reserve the strongest contrast for the primary action or most important information. Secondary actions can remain visible with lower emphasis.",
+      "location": {
+        "kind": "paragraph",
+        "index": 2,
+        "label": "Paragraph 2",
+        "part": 0
+      },
+      "id": "fc36911a-c5ed-4230-a4c1-054becc92cd7",
+      "projectId": "c8c8efa1-f84e-4ab4-9fb6-cb60711c35b6",
+      "resourceId": "37c52934-b1d2-4e43-962d-f729e06103e7"
+    },
+    {
+      "text": "Elements placed close together are often understood as related. Space between groups helps people separate tasks or topics. Whitespace can communicate structure without adding extra boxes or instructions.",
+      "location": {
+        "kind": "paragraph",
+        "index": 3,
+        "label": "Paragraph 3",
+        "part": 0
+      },
+      "id": "07d301b2-12ca-4267-960b-461bf46c5f0e",
+      "projectId": "c8c8efa1-f84e-4ab4-9fb6-cb60711c35b6",
+      "resourceId": "37c52934-b1d2-4e43-962d-f729e06103e7"
+    },
+    {
+      "text": "Recognition and recall \nRecognition identifies information when a cue is present.\nRecall retrieves information without that cue.\nKeep relevant interface choices visible to reduce memory demands.\nA learner recognising a familiar paragraph has not yet shown recall.",
+      "location": {
+        "kind": "page",
+        "index": 1,
+        "label": "Page 1",
+        "part": 0
+      },
+      "id": "dfeb91da-3302-4214-8991-9f082842f929",
+      "projectId": "c8c8efa1-f84e-4ab4-9fb6-cb60711c35b6",
+      "resourceId": "26ce73ac-0394-48f4-bbbe-80ccb41b86c7"
+    },
+    {
+      "text": "Progressive disclosure \nProgressive disclosure reveals secondary details when they are relevant.\nKeep essential actions visible and label optional controls clearly.\nHiding essential navigation would make the interface harder to use.",
+      "location": {
+        "kind": "page",
+        "index": 2,
+        "label": "Page 2",
+        "part": 0
+      },
+      "id": "59a499e2-d1ab-4509-9a8a-46f1f810bff7",
+      "projectId": "c8c8efa1-f84e-4ab4-9fb6-cb60711c35b6",
+      "resourceId": "26ce73ac-0394-48f4-bbbe-80ccb41b86c7"
+    },
+    {
+      "text": "Flower observation fixture.",
+      "location": {
+        "kind": "timestamp",
+        "seconds": 0,
+        "label": "0:00"
+      },
+      "id": "b30fb92d-15a5-418a-bca4-ecc80e90e4d7",
+      "projectId": "c8c8efa1-f84e-4ab4-9fb6-cb60711c35b6",
+      "resourceId": "be0dc910-a0b3-4bd8-a247-7c67013437f0"
+    },
+    {
+      "text": "Timestamp navigation fixture.",
+      "location": {
+        "kind": "timestamp",
+        "seconds": 1,
+        "label": "0:01"
+      },
+      "id": "390d4501-dd60-478b-97be-f18d04be17ea",
+      "projectId": "c8c8efa1-f84e-4ab4-9fb6-cb60711c35b6",
+      "resourceId": "be0dc910-a0b3-4bd8-a247-7c67013437f0"
+    }
+  ]
+}

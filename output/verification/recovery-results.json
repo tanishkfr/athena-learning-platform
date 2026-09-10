@@ -1,0 +1,11 @@
+{
+  "at": "2026-09-10T08:01:19.725Z",
+  "kind": "Isolated controlled fault injection; not real AI-quality evidence",
+  "passed": true,
+  "results": [
+    "Malformed generation is explicit; retry creates one valid attempt.",
+    "Malformed evaluation retains response, confidence and help, and creates no evidence.",
+    "Retry evaluates the same saved attempt exactly once and preserves assisted status.",
+    "Local model outage leaves reading state and note creation available."
+  ]
+}

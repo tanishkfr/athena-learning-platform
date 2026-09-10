@@ -1,0 +1,32 @@
+import assert from 'node:assert/strict';
+import { writeFile, mkdir } from 'node:fs/promises';
+const projectId = process.argv[2];
+assert.ok(projectId, 'Supply the project ID exercised through the browser.');
+const state = await fetch('http://127.0.0.1:3000/api/state').then(r => r.json());
+const project = state.projects.find(p => p.id === projectId);
+assert.ok(project);
+const reports = state.reviews.filter(r => r.projectId === projectId && r.report);
+const attempts = state.attempts.filter(a => reports.some(r => r.report.attemptIds.includes(a.id)));
+for (const mode of ['Explain Back', 'Cue Cards', 'Apply It']) assert.ok(reports.some(r => r.mode === mode), `Missing ${mode} report`);
+for (const status of ['Solid', 'Developing', 'Review']) assert.ok(attempts.some(a => a.evaluation.state === status), `Missing ${status} evidence`);
+for (const attempt of attempts) {
+  assert.ok(attempt.response.trim() && attempt.confidence);
+  const concept = state.concepts.find(c => c.id === attempt.conceptId);
+  const chunks = state.chunks.filter(c => attempt.evaluation.references.includes(c.id));
+  assert.equal(chunks.length, attempt.evaluation.references.length);
+  assert.ok(chunks.every(c => c.projectId === projectId));
+  assert.equal(attempt.evaluation.results.length, concept.facts.length);
+  for (const fact of concept.facts) assert.ok(chunks.some(c => c.text.replace(/\s+/g, ' ').includes(fact.replace(/\s+/g, ' '))));
+  for (const row of attempt.evaluation.results) if (row.verdict !== 'missing') assert.ok(attempt.response.includes(row.learnerQuote) && row.learnerQuote.length);
+  if (attempt.assistance || attempt.mode === 'Cue Cards') assert.notEqual(attempt.evaluation.state, 'Solid');
+}
+const cue = attempts.find(a => a.mode === 'Cue Cards');
+assert.equal(cue.revealed, true); assert.equal(cue.selfRating, 'Knew it'); assert.equal(cue.assistance, 4);
+const application = attempts.find(a => a.mode === 'Apply It');
+assert.ok(application.scenario.length >= 80); assert.equal(application.evaluation.dimension, 'Apply');
+const resumed = state.attempts.find(a => a.projectId === projectId && a.response.startsWith('Draft for later:'));
+assert.ok(resumed && !resumed.evaluation);
+const evidence = { verifiedAt: new Date().toISOString(), project, reports, attempts, schedules: state.schedules.filter(s => s.projectId === projectId), resumedDraft: resumed, checks: 'Three real local-model activities; source-exact facts; valid project references; exact learner quotes; independent versus assisted states; persisted pause draft after restart.' };
+await mkdir('output/verification', { recursive: true });
+await writeFile('output/verification/saved-ai-evidence.json', JSON.stringify(evidence, null, 2));
+console.log(`PASS ${reports.length} saved reports, ${attempts.length} evaluated attempts and resumed draft verified from current application state.`);
