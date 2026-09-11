@@ -1,4 +1,5 @@
 import { discoveryResources } from '../shared/discovery';
+import { prepareDemoConcepts, demoReviewRequest } from './mock-review';
 const STORAGE_KEY = 'athena:vercel-demo';
 const projectId = 'demo-project';
 const samples = [
@@ -17,6 +18,9 @@ function save(state) { localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
 const newId = prefix => `${prefix}-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`;
 export function mockApi(path, body, method = 'POST') {
   const state = load();
+  prepareDemoConcepts(state);
+  const reviewResult = demoReviewRequest(state, path, body, method);
+  if (reviewResult !== undefined) { save(state); return Promise.resolve(clone(reviewResult)); }
   if (path === '/state') return Promise.resolve(clone(state));
   if (path === '/ai/status') return Promise.resolve({ available: false, embeddingAvailable: false, local: false, demo: true, model: 'demo', embeddingModel: 'demo' });
   if (path === '/demo') return Promise.resolve(state.projects.find(project => project.demo) || state.projects[0]);
