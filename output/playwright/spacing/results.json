@@ -1,0 +1,754 @@
+{
+  "checks": [
+    {
+      "route": "/discover/visual-hierarchy",
+      "width": 1440,
+      "overflow": false,
+      "captions": [
+        12
+      ],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Save to a project to learn alongside you"
+        }
+      ]
+    },
+    {
+      "route": "/discover/retrieval-video",
+      "width": 1440,
+      "overflow": false,
+      "captions": [
+        12
+      ],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Save to a project to learn alongside you"
+        }
+      ]
+    },
+    {
+      "route": "/discover/whitespace",
+      "width": 1440,
+      "overflow": false,
+      "captions": [
+        12
+      ],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Save to a project to learn alongside you"
+        }
+      ]
+    },
+    {
+      "route": "/discover/source-notes",
+      "width": 1440,
+      "overflow": false,
+      "captions": [
+        12
+      ],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Save to a project to learn alongside you"
+        }
+      ]
+    },
+    {
+      "route": "/discover/feedback-cycle",
+      "width": 1440,
+      "overflow": false,
+      "captions": [
+        12
+      ],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Save to a project to learn alongside you"
+        }
+      ]
+    },
+    {
+      "route": "/discover/grouping-video",
+      "width": 1440,
+      "overflow": false,
+      "captions": [
+        12
+      ],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Save to a project to learn alongside you"
+        }
+      ]
+    },
+    {
+      "route": "/discover/research-question",
+      "width": 1440,
+      "overflow": false,
+      "captions": [
+        12
+      ],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Save to a project to learn alongside you"
+        }
+      ]
+    },
+    {
+      "route": "/discover/contrast",
+      "width": 1440,
+      "overflow": false,
+      "captions": [
+        12
+      ],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Save to a project to learn alongside you"
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/projects",
+      "width": 1440,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/resources",
+      "width": 1440,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/reviews",
+      "width": 1440,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/insights",
+      "width": 1440,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/settings",
+      "width": 1440,
+      "overflow": false,
+      "captions": [],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Saved notes and preferences stay in this"
+        }
+      ]
+    },
+    {
+      "route": "/signup",
+      "width": 1440,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/projects/demo-project/notes",
+      "width": 1440,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/projects/demo-project/review",
+      "width": 1440,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/learn/demo-hierarchy",
+      "width": 1440,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/discover/visual-hierarchy",
+      "width": 768,
+      "overflow": false,
+      "captions": [
+        12
+      ],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Save to a project to learn alongside you"
+        }
+      ]
+    },
+    {
+      "route": "/discover/retrieval-video",
+      "width": 768,
+      "overflow": false,
+      "captions": [
+        12
+      ],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Save to a project to learn alongside you"
+        }
+      ]
+    },
+    {
+      "route": "/discover/whitespace",
+      "width": 768,
+      "overflow": false,
+      "captions": [
+        12
+      ],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Save to a project to learn alongside you"
+        }
+      ]
+    },
+    {
+      "route": "/discover/source-notes",
+      "width": 768,
+      "overflow": false,
+      "captions": [
+        12
+      ],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Save to a project to learn alongside you"
+        }
+      ]
+    },
+    {
+      "route": "/discover/feedback-cycle",
+      "width": 768,
+      "overflow": false,
+      "captions": [
+        12
+      ],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Save to a project to learn alongside you"
+        }
+      ]
+    },
+    {
+      "route": "/discover/grouping-video",
+      "width": 768,
+      "overflow": false,
+      "captions": [
+        12
+      ],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Save to a project to learn alongside you"
+        }
+      ]
+    },
+    {
+      "route": "/discover/research-question",
+      "width": 768,
+      "overflow": false,
+      "captions": [
+        12
+      ],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Save to a project to learn alongside you"
+        }
+      ]
+    },
+    {
+      "route": "/discover/contrast",
+      "width": 768,
+      "overflow": false,
+      "captions": [
+        12
+      ],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Save to a project to learn alongside you"
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/projects",
+      "width": 768,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/resources",
+      "width": 768,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/reviews",
+      "width": 768,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/insights",
+      "width": 768,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/settings",
+      "width": 768,
+      "overflow": false,
+      "captions": [],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Saved notes and preferences stay in this"
+        }
+      ]
+    },
+    {
+      "route": "/signup",
+      "width": 768,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/projects/demo-project/notes",
+      "width": 768,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/projects/demo-project/review",
+      "width": 768,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/learn/demo-hierarchy",
+      "width": 768,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/discover/visual-hierarchy",
+      "width": 390,
+      "overflow": false,
+      "captions": [
+        12
+      ],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Save to a project to learn alongside you"
+        }
+      ]
+    },
+    {
+      "route": "/discover/retrieval-video",
+      "width": 390,
+      "overflow": false,
+      "captions": [
+        12
+      ],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Save to a project to learn alongside you"
+        }
+      ]
+    },
+    {
+      "route": "/discover/whitespace",
+      "width": 390,
+      "overflow": false,
+      "captions": [
+        12
+      ],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Save to a project to learn alongside you"
+        }
+      ]
+    },
+    {
+      "route": "/discover/source-notes",
+      "width": 390,
+      "overflow": false,
+      "captions": [
+        12
+      ],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Save to a project to learn alongside you"
+        }
+      ]
+    },
+    {
+      "route": "/discover/feedback-cycle",
+      "width": 390,
+      "overflow": false,
+      "captions": [
+        12
+      ],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Save to a project to learn alongside you"
+        }
+      ]
+    },
+    {
+      "route": "/discover/grouping-video",
+      "width": 390,
+      "overflow": false,
+      "captions": [
+        12
+      ],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Save to a project to learn alongside you"
+        }
+      ]
+    },
+    {
+      "route": "/discover/research-question",
+      "width": 390,
+      "overflow": false,
+      "captions": [
+        12
+      ],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Save to a project to learn alongside you"
+        }
+      ]
+    },
+    {
+      "route": "/discover/contrast",
+      "width": 390,
+      "overflow": false,
+      "captions": [
+        12
+      ],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Save to a project to learn alongside you"
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/projects",
+      "width": 390,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/resources",
+      "width": 390,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/reviews",
+      "width": 390,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/insights",
+      "width": 390,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/settings",
+      "width": 390,
+      "overflow": false,
+      "captions": [],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Saved notes and preferences stay in this"
+        }
+      ]
+    },
+    {
+      "route": "/signup",
+      "width": 390,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/projects/demo-project/notes",
+      "width": 390,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/projects/demo-project/review",
+      "width": 390,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/learn/demo-hierarchy",
+      "width": 390,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/discover/visual-hierarchy",
+      "width": 320,
+      "overflow": false,
+      "captions": [
+        12
+      ],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Save to a project to learn alongside you"
+        }
+      ]
+    },
+    {
+      "route": "/discover/retrieval-video",
+      "width": 320,
+      "overflow": false,
+      "captions": [
+        12
+      ],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Save to a project to learn alongside you"
+        }
+      ]
+    },
+    {
+      "route": "/discover/whitespace",
+      "width": 320,
+      "overflow": false,
+      "captions": [
+        12
+      ],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Save to a project to learn alongside you"
+        }
+      ]
+    },
+    {
+      "route": "/discover/source-notes",
+      "width": 320,
+      "overflow": false,
+      "captions": [
+        12
+      ],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Save to a project to learn alongside you"
+        }
+      ]
+    },
+    {
+      "route": "/discover/feedback-cycle",
+      "width": 320,
+      "overflow": false,
+      "captions": [
+        12
+      ],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Save to a project to learn alongside you"
+        }
+      ]
+    },
+    {
+      "route": "/discover/grouping-video",
+      "width": 320,
+      "overflow": false,
+      "captions": [
+        12
+      ],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Save to a project to learn alongside you"
+        }
+      ]
+    },
+    {
+      "route": "/discover/research-question",
+      "width": 320,
+      "overflow": false,
+      "captions": [
+        12
+      ],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Save to a project to learn alongside you"
+        }
+      ]
+    },
+    {
+      "route": "/discover/contrast",
+      "width": 320,
+      "overflow": false,
+      "captions": [
+        12
+      ],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Save to a project to learn alongside you"
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/projects",
+      "width": 320,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/resources",
+      "width": 320,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/reviews",
+      "width": 320,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/insights",
+      "width": 320,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/settings",
+      "width": 320,
+      "overflow": false,
+      "captions": [],
+      "pairs": [
+        {
+          "gap": 16,
+          "text": "Saved notes and preferences stay in this"
+        }
+      ]
+    },
+    {
+      "route": "/signup",
+      "width": 320,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/projects/demo-project/notes",
+      "width": 320,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/projects/demo-project/review",
+      "width": 320,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    },
+    {
+      "route": "/learn/demo-hierarchy",
+      "width": 320,
+      "overflow": false,
+      "captions": [],
+      "pairs": []
+    }
+  ],
+  "errors": [],
+  "saveDialogOpenedAndDismissed": true
+}
