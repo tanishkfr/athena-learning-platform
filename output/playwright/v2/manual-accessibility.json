@@ -1,0 +1,57 @@
+{
+  "header": {
+    "width": 768,
+    "scrollWidth": 768
+  },
+  "manualNodes": [
+    {
+      "target": [
+        ".art-recall > g[stroke=\"#173461\"][fill=\"none\"][stroke-width=\"2\"] > g[stroke=\"none\"][font-size=\"18\"][font-family=\"sans-serif\"] > text[x=\"200\"][y=\"65\"]"
+      ],
+      "html": "<text x=\"200\" y=\"65\">Attempt</text>",
+      "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+    },
+    {
+      "target": [
+        ".art-recall > g[stroke=\"#173461\"][fill=\"none\"][stroke-width=\"2\"] > g[stroke=\"none\"][font-size=\"18\"][font-family=\"sans-serif\"] > text[x=\"301\"][y=\"208\"]"
+      ],
+      "html": "<text x=\"301\" y=\"208\">Check</text>",
+      "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+    },
+    {
+      "target": [
+        ".art-recall > g[stroke=\"#173461\"][fill=\"none\"][stroke-width=\"2\"] > g[stroke=\"none\"][font-size=\"18\"][font-family=\"sans-serif\"] > text[x=\"99\"][y=\"208\"]"
+      ],
+      "html": "<text x=\"99\" y=\"208\">Revisit</text>",
+      "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+    },
+    {
+      "target": [
+        ".art-cycle > g[stroke=\"#173461\"][fill=\"none\"][stroke-width=\"2\"] > g[stroke=\"none\"][font-size=\"18\"][font-family=\"sans-serif\"] > text[x=\"200\"][y=\"65\"]"
+      ],
+      "html": "<text x=\"200\" y=\"65\">Attempt</text>",
+      "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+    },
+    {
+      "target": [
+        ".art-cycle > g[stroke=\"#173461\"][fill=\"none\"][stroke-width=\"2\"] > g[stroke=\"none\"][font-size=\"18\"][font-family=\"sans-serif\"] > text[x=\"301\"][y=\"208\"]"
+      ],
+      "html": "<text x=\"301\" y=\"208\">Check</text>",
+      "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+    },
+    {
+      "target": [
+        ".art-cycle > g[stroke=\"#173461\"][fill=\"none\"][stroke-width=\"2\"] > g[stroke=\"none\"][font-size=\"18\"][font-family=\"sans-serif\"] > text[x=\"99\"][y=\"208\"]"
+      ],
+      "html": "<text x=\"99\" y=\"208\">Revisit</text>",
+      "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+    }
+  ],
+  "ratios": {
+    "SVG navy labels on cream nodes": 11.85,
+    "Primary cream label on dark terracotta": 5.51,
+    "Muted text on cream": 5.22,
+    "Search arrow on terracotta": 4.5
+  },
+  "note": "Manual source and rendered review for SVG text that axe cannot calculate. Not a screen-reader or physical-device audit."
+}

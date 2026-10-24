@@ -1,0 +1,42 @@
+[
+  {
+    "antipattern": "side-tab",
+    "name": "Side-tab accent border",
+    "description": "Thick colored border on one side of a card — the most recognizable tell of AI-generated UIs. Use a subtler accent or remove it entirely.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Dev\\Coursework\\Athena - UXD A3\\ATHENA - LEARNING PLATFORM\\src\\styles.css",
+    "line": 509,
+    "snippet": "border-left:3px solid #ae4c32"
+  },
+  {
+    "antipattern": "side-tab",
+    "name": "Side-tab accent border",
+    "description": "Thick colored border on one side of a card — the most recognizable tell of AI-generated UIs. Use a subtler accent or remove it entirely.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Dev\\Coursework\\Athena - UXD A3\\ATHENA - LEARNING PLATFORM\\src\\styles.css",
+    "line": 571,
+    "snippet": "border-left:2px solid #b28b50"
+  },
+  {
+    "antipattern": "side-tab",
+    "name": "Side-tab accent border",
+    "description": "Thick colored border on one side of a card — the most recognizable tell of AI-generated UIs. Use a subtler accent or remove it entirely.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Dev\\Coursework\\Athena - UXD A3\\ATHENA - LEARNING PLATFORM\\src\\styles.css",
+    "line": 667,
+    "snippet": "border-left:2px solid #b0c7d0"
+  },
+  {
+    "antipattern": "side-tab",
+    "name": "Side-tab accent border",
+    "description": "Thick colored border on one side of a card — the most recognizable tell of AI-generated UIs. Use a subtler accent or remove it entirely.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Dev\\Coursework\\Athena - UXD A3\\ATHENA - LEARNING PLATFORM\\src\\styles.css",
+    "line": 674,
+    "snippet": "border-left:2px solid #c79764"
+  }
+]

@@ -1,0 +1,554 @@
+{
+  "menuClosed": true,
+  "errors": [],
+  "checkedLayouts": 78,
+  "overflow": [],
+  "metrics": [
+    {
+      "width": 1440,
+      "height": 900,
+      "route": "/",
+      "scrollWidth": 1440,
+      "outside": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "route": "/projects",
+      "scrollWidth": 1440,
+      "outside": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "route": "/resources",
+      "scrollWidth": 1440,
+      "outside": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "route": "/search",
+      "scrollWidth": 1440,
+      "outside": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "route": "/projects/demo-project",
+      "scrollWidth": 1440,
+      "outside": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "route": "/projects/demo-project/resources",
+      "scrollWidth": 1440,
+      "outside": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "route": "/projects/demo-project/notes",
+      "scrollWidth": 1440,
+      "outside": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "route": "/projects/demo-project/goals",
+      "scrollWidth": 1440,
+      "outside": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "route": "/projects/demo-project/insights",
+      "scrollWidth": 1440,
+      "outside": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "route": "/learn/demo-hierarchy",
+      "scrollWidth": 1440,
+      "outside": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "route": "/projects/demo-project/review",
+      "scrollWidth": 1440,
+      "outside": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "route": "/reviews",
+      "scrollWidth": 1440,
+      "outside": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "route": "/insights",
+      "scrollWidth": 1440,
+      "outside": []
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "route": "/",
+      "scrollWidth": 1280,
+      "outside": []
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "route": "/projects",
+      "scrollWidth": 1280,
+      "outside": []
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "route": "/resources",
+      "scrollWidth": 1280,
+      "outside": []
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "route": "/search",
+      "scrollWidth": 1280,
+      "outside": []
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "route": "/projects/demo-project",
+      "scrollWidth": 1280,
+      "outside": []
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "route": "/projects/demo-project/resources",
+      "scrollWidth": 1280,
+      "outside": []
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "route": "/projects/demo-project/notes",
+      "scrollWidth": 1280,
+      "outside": []
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "route": "/projects/demo-project/goals",
+      "scrollWidth": 1280,
+      "outside": []
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "route": "/projects/demo-project/insights",
+      "scrollWidth": 1280,
+      "outside": []
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "route": "/learn/demo-hierarchy",
+      "scrollWidth": 1280,
+      "outside": []
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "route": "/projects/demo-project/review",
+      "scrollWidth": 1280,
+      "outside": []
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "route": "/reviews",
+      "scrollWidth": 1280,
+      "outside": []
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "route": "/insights",
+      "scrollWidth": 1280,
+      "outside": []
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "route": "/",
+      "scrollWidth": 768,
+      "outside": []
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "route": "/projects",
+      "scrollWidth": 768,
+      "outside": []
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "route": "/resources",
+      "scrollWidth": 768,
+      "outside": []
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "route": "/search",
+      "scrollWidth": 768,
+      "outside": []
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "route": "/projects/demo-project",
+      "scrollWidth": 768,
+      "outside": []
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "route": "/projects/demo-project/resources",
+      "scrollWidth": 768,
+      "outside": []
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "route": "/projects/demo-project/notes",
+      "scrollWidth": 768,
+      "outside": []
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "route": "/projects/demo-project/goals",
+      "scrollWidth": 768,
+      "outside": []
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "route": "/projects/demo-project/insights",
+      "scrollWidth": 768,
+      "outside": []
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "route": "/learn/demo-hierarchy",
+      "scrollWidth": 768,
+      "outside": []
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "route": "/projects/demo-project/review",
+      "scrollWidth": 768,
+      "outside": []
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "route": "/reviews",
+      "scrollWidth": 768,
+      "outside": []
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "route": "/insights",
+      "scrollWidth": 768,
+      "outside": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "scrollWidth": 390,
+      "outside": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/projects",
+      "scrollWidth": 390,
+      "outside": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/resources",
+      "scrollWidth": 390,
+      "outside": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/search",
+      "scrollWidth": 390,
+      "outside": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/projects/demo-project",
+      "scrollWidth": 390,
+      "outside": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/projects/demo-project/resources",
+      "scrollWidth": 390,
+      "outside": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/projects/demo-project/notes",
+      "scrollWidth": 390,
+      "outside": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/projects/demo-project/goals",
+      "scrollWidth": 390,
+      "outside": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/projects/demo-project/insights",
+      "scrollWidth": 390,
+      "outside": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/learn/demo-hierarchy",
+      "scrollWidth": 390,
+      "outside": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/projects/demo-project/review",
+      "scrollWidth": 390,
+      "outside": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/reviews",
+      "scrollWidth": 390,
+      "outside": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/insights",
+      "scrollWidth": 390,
+      "outside": []
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "route": "/",
+      "scrollWidth": 375,
+      "outside": []
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "route": "/projects",
+      "scrollWidth": 375,
+      "outside": []
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "route": "/resources",
+      "scrollWidth": 375,
+      "outside": []
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "route": "/search",
+      "scrollWidth": 375,
+      "outside": []
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "route": "/projects/demo-project",
+      "scrollWidth": 375,
+      "outside": []
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "route": "/projects/demo-project/resources",
+      "scrollWidth": 375,
+      "outside": []
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "route": "/projects/demo-project/notes",
+      "scrollWidth": 375,
+      "outside": []
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "route": "/projects/demo-project/goals",
+      "scrollWidth": 375,
+      "outside": []
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "route": "/projects/demo-project/insights",
+      "scrollWidth": 375,
+      "outside": []
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "route": "/learn/demo-hierarchy",
+      "scrollWidth": 375,
+      "outside": []
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "route": "/projects/demo-project/review",
+      "scrollWidth": 375,
+      "outside": []
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "route": "/reviews",
+      "scrollWidth": 375,
+      "outside": []
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "route": "/insights",
+      "scrollWidth": 375,
+      "outside": []
+    },
+    {
+      "width": 320,
+      "height": 667,
+      "route": "/",
+      "scrollWidth": 320,
+      "outside": []
+    },
+    {
+      "width": 320,
+      "height": 667,
+      "route": "/projects",
+      "scrollWidth": 320,
+      "outside": []
+    },
+    {
+      "width": 320,
+      "height": 667,
+      "route": "/resources",
+      "scrollWidth": 320,
+      "outside": []
+    },
+    {
+      "width": 320,
+      "height": 667,
+      "route": "/search",
+      "scrollWidth": 320,
+      "outside": []
+    },
+    {
+      "width": 320,
+      "height": 667,
+      "route": "/projects/demo-project",
+      "scrollWidth": 320,
+      "outside": []
+    },
+    {
+      "width": 320,
+      "height": 667,
+      "route": "/projects/demo-project/resources",
+      "scrollWidth": 320,
+      "outside": []
+    },
+    {
+      "width": 320,
+      "height": 667,
+      "route": "/projects/demo-project/notes",
+      "scrollWidth": 320,
+      "outside": []
+    },
+    {
+      "width": 320,
+      "height": 667,
+      "route": "/projects/demo-project/goals",
+      "scrollWidth": 320,
+      "outside": []
+    },
+    {
+      "width": 320,
+      "height": 667,
+      "route": "/projects/demo-project/insights",
+      "scrollWidth": 320,
+      "outside": []
+    },
+    {
+      "width": 320,
+      "height": 667,
+      "route": "/learn/demo-hierarchy",
+      "scrollWidth": 320,
+      "outside": []
+    },
+    {
+      "width": 320,
+      "height": 667,
+      "route": "/projects/demo-project/review",
+      "scrollWidth": 320,
+      "outside": []
+    },
+    {
+      "width": 320,
+      "height": 667,
+      "route": "/reviews",
+      "scrollWidth": 320,
+      "outside": []
+    },
+    {
+      "width": 320,
+      "height": 667,
+      "route": "/insights",
+      "scrollWidth": 320,
+      "outside": []
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "Browser demo only; scripted feedback, no model-quality claim",
+  "results": [
+    {
+      "mode": "Explain Back",
+      "scriptedFeedbackDisclosed": true,
+      "reportAndSourceReturn": true
+    },
+    {
+      "mode": "Cue Cards",
+      "scriptedFeedbackDisclosed": true,
+      "reportAndSourceReturn": true
+    },
+    {
+      "mode": "Apply It",
+      "scriptedFeedbackDisclosed": true,
+      "reportAndSourceReturn": true
+    }
+  ],
+  "actualEvidenceRecords": 0,
+  "errors": []
+}
