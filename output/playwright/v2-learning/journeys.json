@@ -1,0 +1,226 @@
+{
+  "checks": [
+    {
+      "name": "Project opens from Projects",
+      "pass": true
+    },
+    {
+      "name": "Project source opens Reader",
+      "pass": true
+    },
+    {
+      "name": "Reading passage persists after reload",
+      "pass": true
+    },
+    {
+      "name": "Notes shortcut focuses composer",
+      "pass": true
+    },
+    {
+      "name": "Contextual note preserves resource and chunk IDs",
+      "pass": true
+    },
+    {
+      "name": "Editing focuses note field",
+      "pass": true
+    },
+    {
+      "name": "Editing restores focus to Edit",
+      "pass": true
+    },
+    {
+      "name": "Edited note persists with original context",
+      "pass": true
+    },
+    {
+      "name": "Project note returns to exact source",
+      "pass": true
+    },
+    {
+      "name": "Focus mode removes shell header and footer",
+      "pass": true
+    },
+    {
+      "name": "Source return preserves focus mode",
+      "pass": true
+    },
+    {
+      "name": "Exit focus restores shell",
+      "pass": true
+    },
+    {
+      "name": "Delete dialog Escape keeps note and restores focus",
+      "pass": true
+    },
+    {
+      "name": "Demo note deletion keeps source",
+      "pass": true
+    },
+    {
+      "name": "Mobile passage capture brings notes into view",
+      "pass": true
+    },
+    {
+      "name": "Selected quote persists with correct source",
+      "pass": true
+    },
+    {
+      "name": "Mobile navigation opens",
+      "pass": true
+    },
+    {
+      "name": "Mobile navigation Escape restores toggle focus",
+      "pass": true
+    },
+    {
+      "name": "Explain Back: selection state",
+      "pass": true
+    },
+    {
+      "name": "Explain Back: scope updates",
+      "pass": true
+    },
+    {
+      "name": "Explain Back: review starts",
+      "pass": true
+    },
+    {
+      "name": "Explain Back: answer and confidence autosave",
+      "pass": true
+    },
+    {
+      "name": "Explain Back: pause and resume draft",
+      "pass": true
+    },
+    {
+      "name": "Explain Back: all progressive help levels",
+      "pass": true
+    },
+    {
+      "name": "Explain Back: scripted feedback and sources visible",
+      "pass": true
+    },
+    {
+      "name": "Explain Back: feedback source return",
+      "pass": true
+    },
+    {
+      "name": "Explain Back: sample report and disclosure",
+      "pass": true
+    },
+    {
+      "name": "Explain Back: review history reopens report",
+      "pass": true
+    },
+    {
+      "name": "Cue Cards: selection state",
+      "pass": true
+    },
+    {
+      "name": "Cue Cards: scope updates",
+      "pass": true
+    },
+    {
+      "name": "Cue Cards: review starts",
+      "pass": true
+    },
+    {
+      "name": "Cue Cards: answer and confidence autosave",
+      "pass": true
+    },
+    {
+      "name": "Cue Cards: pause and resume draft",
+      "pass": true
+    },
+    {
+      "name": "Cue Cards: reveal and self-rating saved",
+      "pass": true
+    },
+    {
+      "name": "Cue Cards: scripted feedback and sources visible",
+      "pass": true
+    },
+    {
+      "name": "Cue Cards: feedback source return",
+      "pass": true
+    },
+    {
+      "name": "Cue Cards: sample report and disclosure",
+      "pass": true
+    },
+    {
+      "name": "Cue Cards: review history reopens report",
+      "pass": true
+    },
+    {
+      "name": "Apply It: selection state",
+      "pass": true
+    },
+    {
+      "name": "Apply It: scope updates",
+      "pass": true
+    },
+    {
+      "name": "Apply It: review starts",
+      "pass": true
+    },
+    {
+      "name": "Apply It: answer and confidence autosave",
+      "pass": true
+    },
+    {
+      "name": "Apply It: pause and resume draft",
+      "pass": true
+    },
+    {
+      "name": "Apply It: all progressive help levels",
+      "pass": true
+    },
+    {
+      "name": "Apply It: scripted feedback and sources visible",
+      "pass": true
+    },
+    {
+      "name": "Apply It: feedback source return",
+      "pass": true
+    },
+    {
+      "name": "Apply It: sample report and disclosure",
+      "pass": true
+    },
+    {
+      "name": "Apply It: review history reopens report",
+      "pass": true
+    },
+    {
+      "name": "Scripted reviews create no knowledge evidence or schedules",
+      "pass": true
+    },
+    {
+      "name": "Insights separates activity from empty knowledge",
+      "pass": true
+    },
+    {
+      "name": "Settings preferences persist",
+      "pass": true
+    },
+    {
+      "name": "Reading and motion preferences apply",
+      "pass": true
+    },
+    {
+      "name": "Keyboard skip link is first and visibly focused",
+      "pass": true
+    },
+    {
+      "name": "Skip link reaches main",
+      "pass": true
+    },
+    {
+      "name": "Keyboard selects review mode",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "scope": "Chrome browser-local scripted demo only; DOM Range passage capture, no native touch gesture, no inference or backend checks."
+}

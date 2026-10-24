@@ -30,6 +30,14 @@ export function mockApi(path, body, method = 'POST') {
   if (projectKey && method === 'PATCH') { const project = state.projects.find(item => item.id === projectKey); Object.assign(project, body || {}, { updatedAt: new Date().toISOString() }); save(state); return Promise.resolve(project); }
   const notesProject = path.match(/^\/projects\/([^/]+)\/notes$/)?.[1];
   if (notesProject && method === 'POST') { const note = { id: newId('note'), projectId: notesProject, content: body.content, resourceId: body.resourceId || null, chunkId: body.chunkId || null, quote: body.quote || '', seconds: body.seconds ?? null, createdAt: new Date().toISOString() }; state.notes.push(note); save(state); return Promise.resolve(note); }
+  const noteKey = path.match(/^\/notes\/([^/]+)$/)?.[1];
+  if (noteKey && ['PATCH', 'DELETE'].includes(method)) {
+    const note = state.notes.find(item => item.id === noteKey);
+    if (!note) return Promise.reject(new Error('This note is no longer available.'));
+    if (method === 'PATCH') { note.content = body.content; note.updatedAt = new Date().toISOString(); }
+    else state.notes = state.notes.filter(item => item.id !== noteKey);
+    save(state); return Promise.resolve(clone(note));
+  }
   const resourceProject = path.match(/^\/projects\/([^/]+)\/resources$/)?.[1];
   if (resourceProject && method === 'POST') { const sample = discoveryResources.find(r => r.id === body?.get?.('sampleId')); const title = body?.get?.('title') || 'Untitled resource'; const content = body?.get?.('content') || 'This demo resource is stored only in this browser.'; const resource = { id: newId('resource'), projectId: resourceProject, title, sampleId: sample?.id, type: sample?.format === 'Video' ? 'video' : body?.get?.('type') || 'text', source: 'Browser demo', author: 'Demo material', status: 'Ready', createdAt: new Date().toISOString(), explored: false, error: null, chunkCount: 1, wordCount: content.split(/\s+/).length }; state.resources.push(resource); state.chunks.push({ id: `${resource.id}-1`, projectId: resourceProject, resourceId: resource.id, text: content, location: { kind: 'paragraph', index: 1, label: 'Paragraph 1', part: 0 } }); save(state); return Promise.resolve(resource); }
   const resourceKey = path.match(/^\/resources\/([^/]+)$/)?.[1];

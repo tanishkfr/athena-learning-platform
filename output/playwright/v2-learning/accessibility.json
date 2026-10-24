@@ -1,0 +1,356 @@
+[
+  {
+    "screen": "reader",
+    "width": 1440,
+    "passes": 41,
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "target": [
+              "#note-content"
+            ],
+            "html": "<textarea id=\"note-content\" rows=\"4\" placeholder=\"What stands out? Put it in your own words…\" required=\"\"></textarea>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "screen": "notes",
+    "width": 1440,
+    "passes": 35,
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "target": [
+              "#note-content"
+            ],
+            "html": "<textarea id=\"note-content\" rows=\"4\" placeholder=\"What stands out? Put it in your own words…\" required=\"\"></textarea>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "screen": "setup",
+    "width": 1440,
+    "passes": 42,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "screen": "active",
+    "width": 1440,
+    "passes": 40,
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "target": [
+              "#review-response"
+            ],
+            "html": "<textarea id=\"review-response\" class=\"response-input\" required=\"\" rows=\"8\" placeholder=\"Start with what you remember. You don’t need a perfect answer.\">I would keep the reading material prominent and place saved notes alongside the source.</textarea>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "screen": "feedback",
+    "width": 1440,
+    "passes": 38,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "screen": "report",
+    "width": 1440,
+    "passes": 37,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "screen": "insights",
+    "width": 1440,
+    "passes": 36,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "screen": "reviews",
+    "width": 1440,
+    "passes": 37,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "screen": "settings",
+    "width": 1440,
+    "passes": 36,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "screen": "focus",
+    "width": 1440,
+    "passes": 37,
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "target": [
+              "#note-content"
+            ],
+            "html": "<textarea id=\"note-content\" rows=\"4\" placeholder=\"What stands out? Put it in your own words…\" required=\"\"></textarea>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "screen": "reader",
+    "width": 390,
+    "passes": 40,
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "target": [
+              "#note-content"
+            ],
+            "html": "<textarea id=\"note-content\" rows=\"4\" placeholder=\"What stands out? Put it in your own words…\" required=\"\"></textarea>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "screen": "notes",
+    "width": 390,
+    "passes": 35,
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "target": [
+              "#note-content"
+            ],
+            "html": "<textarea id=\"note-content\" rows=\"4\" placeholder=\"What stands out? Put it in your own words…\" required=\"\"></textarea>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "screen": "setup",
+    "width": 390,
+    "passes": 42,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "screen": "active",
+    "width": 390,
+    "passes": 40,
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "target": [
+              "#review-response"
+            ],
+            "html": "<textarea id=\"review-response\" class=\"response-input\" required=\"\" rows=\"8\" placeholder=\"Start with what you remember. You don’t need a perfect answer.\">I would keep the reading material prominent and place saved notes alongside the source.</textarea>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "screen": "feedback",
+    "width": 390,
+    "passes": 38,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "screen": "report",
+    "width": 390,
+    "passes": 37,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "screen": "insights",
+    "width": 390,
+    "passes": 36,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "screen": "reviews",
+    "width": 390,
+    "passes": 37,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "screen": "settings",
+    "width": 390,
+    "passes": 36,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "screen": "focus",
+    "width": 390,
+    "passes": 36,
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "target": [
+              "#note-content"
+            ],
+            "html": "<textarea id=\"note-content\" rows=\"4\" placeholder=\"What stands out? Put it in your own words…\" required=\"\"></textarea>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "screen": "reader",
+    "width": 320,
+    "passes": 40,
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "target": [
+              "#note-content"
+            ],
+            "html": "<textarea id=\"note-content\" rows=\"4\" placeholder=\"What stands out? Put it in your own words…\" required=\"\"></textarea>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "screen": "notes",
+    "width": 320,
+    "passes": 36,
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "target": [
+              "#note-content"
+            ],
+            "html": "<textarea id=\"note-content\" rows=\"4\" placeholder=\"What stands out? Put it in your own words…\" required=\"\"></textarea>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "screen": "setup",
+    "width": 320,
+    "passes": 42,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "screen": "active",
+    "width": 320,
+    "passes": 40,
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "target": [
+              "#review-response"
+            ],
+            "html": "<textarea id=\"review-response\" class=\"response-input\" required=\"\" rows=\"8\" placeholder=\"Start with what you remember. You don’t need a perfect answer.\">I would keep the reading material prominent and place saved notes alongside the source.</textarea>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "screen": "feedback",
+    "width": 320,
+    "passes": 38,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "screen": "report",
+    "width": 320,
+    "passes": 37,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "screen": "insights",
+    "width": 320,
+    "passes": 36,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "screen": "reviews",
+    "width": 320,
+    "passes": 37,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "screen": "settings",
+    "width": 320,
+    "passes": 36,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "screen": "focus",
+    "width": 320,
+    "passes": 36,
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "target": [
+              "#note-content"
+            ],
+            "html": "<textarea id=\"note-content\" rows=\"4\" placeholder=\"What stands out? Put it in your own words…\" required=\"\"></textarea>"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,130 @@
+{
+  "checks": [
+    {
+      "name": "Delete dialog fits 1440",
+      "pass": true
+    },
+    {
+      "name": "Native dialog prevents background control focus 1440",
+      "pass": true
+    },
+    {
+      "name": "Delete dialog fits 1280",
+      "pass": true
+    },
+    {
+      "name": "Native dialog prevents background control focus 1280",
+      "pass": true
+    },
+    {
+      "name": "Delete dialog fits 768",
+      "pass": true
+    },
+    {
+      "name": "Native dialog prevents background control focus 768",
+      "pass": true
+    },
+    {
+      "name": "Delete dialog fits 390",
+      "pass": true
+    },
+    {
+      "name": "Native dialog prevents background control focus 390",
+      "pass": true
+    },
+    {
+      "name": "Delete dialog fits 375",
+      "pass": true
+    },
+    {
+      "name": "Native dialog prevents background control focus 375",
+      "pass": true
+    },
+    {
+      "name": "Delete dialog fits 320",
+      "pass": true
+    },
+    {
+      "name": "Native dialog prevents background control focus 320",
+      "pass": true
+    },
+    {
+      "name": "Processing reader state 1440",
+      "pass": true
+    },
+    {
+      "name": "Processing reader has no overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "Failed reader state 1440",
+      "pass": true
+    },
+    {
+      "name": "Failed reader has no overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "Empty reader state 1440",
+      "pass": true
+    },
+    {
+      "name": "Empty reader has no overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "Processing reader state 390",
+      "pass": true
+    },
+    {
+      "name": "Processing reader has no overflow 390",
+      "pass": true
+    },
+    {
+      "name": "Failed reader state 390",
+      "pass": true
+    },
+    {
+      "name": "Failed reader has no overflow 390",
+      "pass": true
+    },
+    {
+      "name": "Empty reader state 390",
+      "pass": true
+    },
+    {
+      "name": "Empty reader has no overflow 390",
+      "pass": true
+    },
+    {
+      "name": "Unavailable source offers project return",
+      "pass": true
+    },
+    {
+      "name": "Unsupported video has a source fallback",
+      "pass": true
+    },
+    {
+      "name": "Timestamp chapter changes transcript context",
+      "pass": true
+    },
+    {
+      "name": "Video note retains explicit timestamp and source",
+      "pass": true
+    },
+    {
+      "name": "Timestamp note returns with seconds parameter",
+      "pass": true
+    },
+    {
+      "name": "Question navigation exposes second response",
+      "pass": true
+    },
+    {
+      "name": "Source question panel discloses sample behavior",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "scope": "Presentation fixtures stored in the browser demo. No retry processing, extraction, inference, PDF rendering or actual video playback was invoked or verified."
+}
