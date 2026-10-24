@@ -1,0 +1,23 @@
+
+> athena-learning-workspace@0.1.0 test
+> node --test --test-isolation=none tests/*.test.js
+
+✔ text chunks preserve paragraph identity and all source content (1.875ms)
+✔ transcript timestamps map actual source moments, including VTT (0.5287ms)
+✔ long unbroken input does not silently lose its leading text (0.1433ms)
+✔ private and local URL inputs are rejected (3.8049ms)
+✔ knowledge states depend on response evidence and assistance, not confidence (0.4574ms)
+✔ scheduling uses deterministic concept-level evidence intervals (0.6452ms)
+✔ evaluation rejects invented learner quotations and missing rubric rows (0.2876ms)
+✔ empty retrieval never fabricates evidence and is project scoped (2.0635ms)
+✔ project deletion removes its derived evidence without touching another project (11.2879ms)
+✔ failed transaction does not leave partial learner data (0.4916ms)
+✔ rubric citations are derived from the actual fact location (0.4325ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2296.8775

@@ -1,0 +1,42 @@
+{
+  "kind": "Real local backend, isolated SQLite database; no Ollama model available. Connection/loading are explicitly injected UI states.",
+  "results": [
+    {
+      "name": "Connection failure has retry action",
+      "passed": true
+    },
+    {
+      "name": "Retry reconnects to actual isolated SQLite backend",
+      "passed": true
+    },
+    {
+      "name": "Loading state is announced while real request is delayed",
+      "passed": true
+    },
+    {
+      "name": "Empty local collection offers project creation",
+      "passed": true
+    },
+    {
+      "name": "Failed import stays visible in project overview",
+      "passed": true
+    },
+    {
+      "name": "Failed resource view retains original-link and retry controls",
+      "passed": true
+    },
+    {
+      "name": "Actual local import remains readable without indexing",
+      "passed": true
+    },
+    {
+      "name": "Source-linked note persists through real API and SQLite reload",
+      "passed": true
+    },
+    {
+      "name": "Model availability remains honestly unavailable",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

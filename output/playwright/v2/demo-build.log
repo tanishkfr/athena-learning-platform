@@ -1,0 +1,63 @@
+
+> athena-learning-workspace@0.1.0 build
+> vite build --outDir tmp/v2-demo-build
+
+vite v7.3.6 building client environment for production...
+transforming...
+✓ 56 modules transformed.
+rendering chunks...
+computing gzip size...
+tmp/v2-demo-build/index.html                                               0.61 kB │ gzip:   0.39 kB
+tmp/v2-demo-build/assets/literata-cyrillic-ext-500-normal-DsnNTbEs.woff    4.89 kB
+tmp/v2-demo-build/assets/literata-cyrillic-ext-500-italic-D2HuAAD8.woff    5.00 kB
+tmp/v2-demo-build/assets/literata-vietnamese-500-normal-BO6VJZmq.woff2     5.25 kB
+tmp/v2-demo-build/assets/literata-vietnamese-500-italic-DpPOSwh2.woff2     5.32 kB
+tmp/v2-demo-build/assets/rubik-hebrew-400-normal-Dp0lvSRB.woff2            5.32 kB
+tmp/v2-demo-build/assets/rubik-hebrew-500-normal-B_5jqoVI.woff2            5.41 kB
+tmp/v2-demo-build/assets/literata-greek-ext-500-normal-Ch423SOo.woff2      6.00 kB
+tmp/v2-demo-build/assets/rubik-cyrillic-ext-400-normal-D-KNTwvG.woff2      6.31 kB
+tmp/v2-demo-build/assets/literata-greek-ext-500-italic-U64xSkMv.woff2      6.36 kB
+tmp/v2-demo-build/assets/rubik-cyrillic-ext-500-normal-DVRnamQw.woff2      6.50 kB
+tmp/v2-demo-build/assets/rubik-hebrew-400-normal-BQDoxs6C.woff             6.77 kB
+tmp/v2-demo-build/assets/rubik-hebrew-500-normal--anb7y8_.woff             6.83 kB
+tmp/v2-demo-build/assets/literata-vietnamese-500-normal-oKjKEVoT.woff      6.90 kB
+tmp/v2-demo-build/assets/literata-vietnamese-500-italic--rXrEnGH.woff      6.99 kB
+tmp/v2-demo-build/assets/rubik-cyrillic-400-normal-C5G8_8ug.woff2          7.87 kB
+tmp/v2-demo-build/assets/literata-greek-ext-500-normal-DAV_uEdg.woff       7.89 kB
+tmp/v2-demo-build/assets/rubik-cyrillic-500-normal-Didq2w9O.woff2          7.92 kB
+tmp/v2-demo-build/assets/literata-greek-500-normal-BOHfHuzs.woff2          8.17 kB
+tmp/v2-demo-build/assets/rubik-cyrillic-ext-400-normal-CTkTGo13.woff       8.18 kB
+tmp/v2-demo-build/assets/literata-greek-ext-500-italic-RH9wGL34.woff       8.30 kB
+tmp/v2-demo-build/assets/rubik-cyrillic-ext-500-normal-CnfIzV8i.woff       8.32 kB
+tmp/v2-demo-build/assets/literata-greek-500-italic-DLrVH6HP.woff2          8.42 kB
+tmp/v2-demo-build/assets/rubik-cyrillic-400-normal-D5R8xuhl.woff           9.88 kB
+tmp/v2-demo-build/assets/rubik-cyrillic-500-normal-BH_pkKR0.woff           9.92 kB
+tmp/v2-demo-build/assets/literata-greek-500-normal-BiJAGmr4.woff          10.01 kB
+tmp/v2-demo-build/assets/literata-greek-500-italic-CYRuwRyq.woff          10.17 kB
+tmp/v2-demo-build/assets/rubik-latin-ext-400-normal-BtzQ7olK.woff2        10.63 kB
+tmp/v2-demo-build/assets/rubik-latin-ext-500-normal-CKoAoPpD.woff2        10.85 kB
+tmp/v2-demo-build/assets/literata-cyrillic-500-normal-DQDv4C2e.woff2      11.44 kB
+tmp/v2-demo-build/assets/literata-cyrillic-500-italic-DnHGLfoc.woff2      12.19 kB
+tmp/v2-demo-build/assets/rubik-latin-ext-400-normal-E7wwwcV8.woff         13.74 kB
+tmp/v2-demo-build/assets/literata-cyrillic-500-normal-DmI56pSQ.woff       13.89 kB
+tmp/v2-demo-build/assets/rubik-latin-ext-500-normal-BUryUc8T.woff         13.93 kB
+tmp/v2-demo-build/assets/literata-cyrillic-500-italic-DtIkB2xA.woff       14.72 kB
+tmp/v2-demo-build/assets/rubik-arabic-400-normal-B6c_9tGI.woff2           17.40 kB
+tmp/v2-demo-build/assets/rubik-arabic-500-normal-soGt7v5W.woff2           17.69 kB
+tmp/v2-demo-build/assets/literata-latin-ext-500-normal-Dc3nnk63.woff2     18.14 kB
+tmp/v2-demo-build/assets/literata-latin-ext-500-italic-0CsPoUlo.woff2     18.22 kB
+tmp/v2-demo-build/assets/rubik-latin-400-normal-j0pmKyiQ.woff2            18.94 kB
+tmp/v2-demo-build/assets/rubik-latin-500-normal-1os41rQk.woff2            19.04 kB
+tmp/v2-demo-build/assets/literata-latin-500-normal-Dbph1WrK.woff2         21.71 kB
+tmp/v2-demo-build/assets/rubik-arabic-400-normal-Dci85dQr.woff            22.31 kB
+tmp/v2-demo-build/assets/rubik-arabic-500-normal-DNk3Rzpj.woff            22.45 kB
+tmp/v2-demo-build/assets/literata-latin-500-italic-s-I1t-6e.woff2         22.64 kB
+tmp/v2-demo-build/assets/literata-latin-ext-500-italic-BOK_9yTZ.woff      22.78 kB
+tmp/v2-demo-build/assets/literata-latin-ext-500-normal-8xky3JuA.woff      22.88 kB
+tmp/v2-demo-build/assets/rubik-latin-400-normal-BV1Ho3GG.woff             23.92 kB
+tmp/v2-demo-build/assets/rubik-latin-500-normal-LZYVHeqz.woff             24.21 kB
+tmp/v2-demo-build/assets/literata-latin-500-normal-B-T_MU67.woff          26.50 kB
+tmp/v2-demo-build/assets/literata-latin-500-italic-Ca5Qx7xX.woff          27.50 kB
+tmp/v2-demo-build/assets/index-AcPQpuAq.css                               79.81 kB │ gzip:  22.25 kB
+tmp/v2-demo-build/assets/index-H8qGjxVy.js                               340.38 kB │ gzip: 106.00 kB
+✓ built in 1.19s

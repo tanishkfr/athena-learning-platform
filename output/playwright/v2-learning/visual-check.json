@@ -1,0 +1,678 @@
+{
+  "layouts": [
+    {
+      "screen": "reader",
+      "width": 1440,
+      "height": 900,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "outside": []
+    },
+    {
+      "screen": "notes",
+      "width": 1440,
+      "height": 900,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "outside": []
+    },
+    {
+      "screen": "setup",
+      "width": 1440,
+      "height": 900,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "outside": []
+    },
+    {
+      "screen": "active",
+      "width": 1440,
+      "height": 900,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "outside": []
+    },
+    {
+      "screen": "feedback",
+      "width": 1440,
+      "height": 900,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "outside": []
+    },
+    {
+      "screen": "report",
+      "width": 1440,
+      "height": 900,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "outside": []
+    },
+    {
+      "screen": "insights",
+      "width": 1440,
+      "height": 900,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "outside": []
+    },
+    {
+      "screen": "reviews",
+      "width": 1440,
+      "height": 900,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "outside": []
+    },
+    {
+      "screen": "settings",
+      "width": 1440,
+      "height": 900,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "outside": []
+    },
+    {
+      "screen": "focus",
+      "width": 1440,
+      "height": 900,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "outside": []
+    },
+    {
+      "screen": "home",
+      "width": 1440,
+      "height": 900,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "outside": []
+    },
+    {
+      "screen": "projects",
+      "width": 1440,
+      "height": 900,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "outside": []
+    },
+    {
+      "screen": "library",
+      "width": 1440,
+      "height": 900,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "outside": []
+    },
+    {
+      "screen": "overview",
+      "width": 1440,
+      "height": 900,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "outside": []
+    },
+    {
+      "screen": "reader",
+      "width": 1280,
+      "height": 800,
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "outside": []
+    },
+    {
+      "screen": "notes",
+      "width": 1280,
+      "height": 800,
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "outside": []
+    },
+    {
+      "screen": "setup",
+      "width": 1280,
+      "height": 800,
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "outside": []
+    },
+    {
+      "screen": "active",
+      "width": 1280,
+      "height": 800,
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "outside": []
+    },
+    {
+      "screen": "feedback",
+      "width": 1280,
+      "height": 800,
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "outside": []
+    },
+    {
+      "screen": "report",
+      "width": 1280,
+      "height": 800,
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "outside": []
+    },
+    {
+      "screen": "insights",
+      "width": 1280,
+      "height": 800,
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "outside": []
+    },
+    {
+      "screen": "reviews",
+      "width": 1280,
+      "height": 800,
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "outside": []
+    },
+    {
+      "screen": "settings",
+      "width": 1280,
+      "height": 800,
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "outside": []
+    },
+    {
+      "screen": "focus",
+      "width": 1280,
+      "height": 800,
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "outside": []
+    },
+    {
+      "screen": "home",
+      "width": 1280,
+      "height": 800,
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "outside": []
+    },
+    {
+      "screen": "projects",
+      "width": 1280,
+      "height": 800,
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "outside": []
+    },
+    {
+      "screen": "library",
+      "width": 1280,
+      "height": 800,
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "outside": []
+    },
+    {
+      "screen": "overview",
+      "width": 1280,
+      "height": 800,
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "outside": []
+    },
+    {
+      "screen": "reader",
+      "width": 768,
+      "height": 1024,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "outside": []
+    },
+    {
+      "screen": "notes",
+      "width": 768,
+      "height": 1024,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "outside": []
+    },
+    {
+      "screen": "setup",
+      "width": 768,
+      "height": 1024,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "outside": []
+    },
+    {
+      "screen": "active",
+      "width": 768,
+      "height": 1024,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "outside": []
+    },
+    {
+      "screen": "feedback",
+      "width": 768,
+      "height": 1024,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "outside": []
+    },
+    {
+      "screen": "report",
+      "width": 768,
+      "height": 1024,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "outside": []
+    },
+    {
+      "screen": "insights",
+      "width": 768,
+      "height": 1024,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "outside": []
+    },
+    {
+      "screen": "reviews",
+      "width": 768,
+      "height": 1024,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "outside": []
+    },
+    {
+      "screen": "settings",
+      "width": 768,
+      "height": 1024,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "outside": []
+    },
+    {
+      "screen": "focus",
+      "width": 768,
+      "height": 1024,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "outside": []
+    },
+    {
+      "screen": "home",
+      "width": 768,
+      "height": 1024,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "outside": []
+    },
+    {
+      "screen": "projects",
+      "width": 768,
+      "height": 1024,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "outside": []
+    },
+    {
+      "screen": "library",
+      "width": 768,
+      "height": 1024,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "outside": []
+    },
+    {
+      "screen": "overview",
+      "width": 768,
+      "height": 1024,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "outside": []
+    },
+    {
+      "screen": "reader",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "outside": []
+    },
+    {
+      "screen": "notes",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "outside": []
+    },
+    {
+      "screen": "setup",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "outside": []
+    },
+    {
+      "screen": "active",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "outside": []
+    },
+    {
+      "screen": "feedback",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "outside": []
+    },
+    {
+      "screen": "report",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "outside": []
+    },
+    {
+      "screen": "insights",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "outside": []
+    },
+    {
+      "screen": "reviews",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "outside": []
+    },
+    {
+      "screen": "settings",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "outside": []
+    },
+    {
+      "screen": "focus",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "outside": []
+    },
+    {
+      "screen": "home",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "outside": []
+    },
+    {
+      "screen": "projects",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "outside": []
+    },
+    {
+      "screen": "library",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "outside": []
+    },
+    {
+      "screen": "overview",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "outside": []
+    },
+    {
+      "screen": "reader",
+      "width": 375,
+      "height": 667,
+      "viewport": 375,
+      "scrollWidth": 375,
+      "outside": []
+    },
+    {
+      "screen": "notes",
+      "width": 375,
+      "height": 667,
+      "viewport": 375,
+      "scrollWidth": 375,
+      "outside": []
+    },
+    {
+      "screen": "setup",
+      "width": 375,
+      "height": 667,
+      "viewport": 375,
+      "scrollWidth": 375,
+      "outside": []
+    },
+    {
+      "screen": "active",
+      "width": 375,
+      "height": 667,
+      "viewport": 375,
+      "scrollWidth": 375,
+      "outside": []
+    },
+    {
+      "screen": "feedback",
+      "width": 375,
+      "height": 667,
+      "viewport": 375,
+      "scrollWidth": 375,
+      "outside": []
+    },
+    {
+      "screen": "report",
+      "width": 375,
+      "height": 667,
+      "viewport": 375,
+      "scrollWidth": 375,
+      "outside": []
+    },
+    {
+      "screen": "insights",
+      "width": 375,
+      "height": 667,
+      "viewport": 375,
+      "scrollWidth": 375,
+      "outside": []
+    },
+    {
+      "screen": "reviews",
+      "width": 375,
+      "height": 667,
+      "viewport": 375,
+      "scrollWidth": 375,
+      "outside": []
+    },
+    {
+      "screen": "settings",
+      "width": 375,
+      "height": 667,
+      "viewport": 375,
+      "scrollWidth": 375,
+      "outside": []
+    },
+    {
+      "screen": "focus",
+      "width": 375,
+      "height": 667,
+      "viewport": 375,
+      "scrollWidth": 375,
+      "outside": []
+    },
+    {
+      "screen": "home",
+      "width": 375,
+      "height": 667,
+      "viewport": 375,
+      "scrollWidth": 375,
+      "outside": []
+    },
+    {
+      "screen": "projects",
+      "width": 375,
+      "height": 667,
+      "viewport": 375,
+      "scrollWidth": 375,
+      "outside": []
+    },
+    {
+      "screen": "library",
+      "width": 375,
+      "height": 667,
+      "viewport": 375,
+      "scrollWidth": 375,
+      "outside": []
+    },
+    {
+      "screen": "overview",
+      "width": 375,
+      "height": 667,
+      "viewport": 375,
+      "scrollWidth": 375,
+      "outside": []
+    },
+    {
+      "screen": "reader",
+      "width": 320,
+      "height": 667,
+      "viewport": 320,
+      "scrollWidth": 320,
+      "outside": []
+    },
+    {
+      "screen": "notes",
+      "width": 320,
+      "height": 667,
+      "viewport": 320,
+      "scrollWidth": 320,
+      "outside": []
+    },
+    {
+      "screen": "setup",
+      "width": 320,
+      "height": 667,
+      "viewport": 320,
+      "scrollWidth": 320,
+      "outside": []
+    },
+    {
+      "screen": "active",
+      "width": 320,
+      "height": 667,
+      "viewport": 320,
+      "scrollWidth": 320,
+      "outside": []
+    },
+    {
+      "screen": "feedback",
+      "width": 320,
+      "height": 667,
+      "viewport": 320,
+      "scrollWidth": 320,
+      "outside": []
+    },
+    {
+      "screen": "report",
+      "width": 320,
+      "height": 667,
+      "viewport": 320,
+      "scrollWidth": 320,
+      "outside": []
+    },
+    {
+      "screen": "insights",
+      "width": 320,
+      "height": 667,
+      "viewport": 320,
+      "scrollWidth": 320,
+      "outside": []
+    },
+    {
+      "screen": "reviews",
+      "width": 320,
+      "height": 667,
+      "viewport": 320,
+      "scrollWidth": 320,
+      "outside": []
+    },
+    {
+      "screen": "settings",
+      "width": 320,
+      "height": 667,
+      "viewport": 320,
+      "scrollWidth": 320,
+      "outside": []
+    },
+    {
+      "screen": "focus",
+      "width": 320,
+      "height": 667,
+      "viewport": 320,
+      "scrollWidth": 320,
+      "outside": []
+    },
+    {
+      "screen": "home",
+      "width": 320,
+      "height": 667,
+      "viewport": 320,
+      "scrollWidth": 320,
+      "outside": []
+    },
+    {
+      "screen": "projects",
+      "width": 320,
+      "height": 667,
+      "viewport": 320,
+      "scrollWidth": 320,
+      "outside": []
+    },
+    {
+      "screen": "library",
+      "width": 320,
+      "height": 667,
+      "viewport": 320,
+      "scrollWidth": 320,
+      "outside": []
+    },
+    {
+      "screen": "overview",
+      "width": 320,
+      "height": 667,
+      "viewport": 320,
+      "scrollWidth": 320,
+      "outside": []
+    }
+  ],
+  "errors": [],
+  "overflow": []
+}

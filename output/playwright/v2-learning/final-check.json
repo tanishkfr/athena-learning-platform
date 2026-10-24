@@ -1,0 +1,140 @@
+{
+  "checks": [
+    {
+      "name": "Manual computed textarea contrast exceeds 4.5:1",
+      "pass": true
+    },
+    {
+      "name": "Comparison images load: reader desktop",
+      "pass": true
+    },
+    {
+      "name": "Comparison images load: reader mobile",
+      "pass": true
+    },
+    {
+      "name": "Comparison images load: notes desktop",
+      "pass": true
+    },
+    {
+      "name": "Comparison images load: notes mobile",
+      "pass": true
+    },
+    {
+      "name": "Comparison images load: setup desktop",
+      "pass": true
+    },
+    {
+      "name": "Comparison images load: setup mobile",
+      "pass": true
+    },
+    {
+      "name": "Comparison images load: active desktop",
+      "pass": true
+    },
+    {
+      "name": "Comparison images load: active mobile",
+      "pass": true
+    },
+    {
+      "name": "Comparison images load: feedback desktop",
+      "pass": true
+    },
+    {
+      "name": "Comparison images load: feedback mobile",
+      "pass": true
+    },
+    {
+      "name": "Comparison images load: report desktop",
+      "pass": true
+    },
+    {
+      "name": "Comparison images load: report mobile",
+      "pass": true
+    },
+    {
+      "name": "Comparison images load: insights desktop",
+      "pass": true
+    },
+    {
+      "name": "Comparison images load: insights mobile",
+      "pass": true
+    },
+    {
+      "name": "Comparison images load: reviews desktop",
+      "pass": true
+    },
+    {
+      "name": "Comparison images load: reviews mobile",
+      "pass": true
+    },
+    {
+      "name": "Comparison images load: settings desktop",
+      "pass": true
+    },
+    {
+      "name": "Comparison images load: settings mobile",
+      "pass": true
+    },
+    {
+      "name": "Comparison images load: focus desktop",
+      "pass": true
+    },
+    {
+      "name": "Comparison images load: focus mobile",
+      "pass": true
+    },
+    {
+      "name": "Built demo renders reader",
+      "pass": true
+    },
+    {
+      "name": "Built demo renders setup",
+      "pass": true
+    },
+    {
+      "name": "Built demo renders feedback",
+      "pass": true
+    },
+    {
+      "name": "Built demo renders report",
+      "pass": true
+    },
+    {
+      "name": "Built demo renders settings",
+      "pass": true
+    },
+    {
+      "name": "Built demo retains sample disclosure",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "failedRequests": [
+    {
+      "url": "http://127.0.0.1:3103/output/playwright/v2-learning/before-report-mobile.png",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:3103/output/playwright/v2-learning/after-report-mobile.png",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:3103/output/playwright/v2-learning/before-settings-mobile.png",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:3103/output/playwright/v2-learning/after-settings-mobile.png",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "contrast": {
+    "foreground": "rgb(23, 52, 97)",
+    "placeholder": "rgb(98, 107, 112)",
+    "background": "rgb(255, 253, 247)",
+    "textRatio": 12.142503776115495,
+    "placeholderRatio": 5.35351251141943,
+    "placeholderOpacity": "1"
+  },
+  "scope": "Frontend production-build smoke and evidence gallery verification; no local backend or model verification."
+}

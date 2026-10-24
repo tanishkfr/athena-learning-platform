@@ -55,7 +55,3 @@ export function ConfirmDelete({ title, detail, onDelete, onClose }) {
   const [busy, setBusy] = useState(false); const [error, setError] = useState('');
   return <Modal title={title} onClose={onClose}><p>{detail}</p><ErrorMessage error={error}/><div className="form-actions"><Button variant="secondary" onClick={onClose}>Keep it</Button><Button variant="danger" disabled={busy} onClick={async () => { setBusy(true); try { await onDelete(); onClose(); } catch (e) { setError(e.message); setBusy(false); } }}>{busy ? 'Removing…' : 'Delete'}</Button></div></Modal>;
 }
-export function BookArt({ variant = 0, compact = false }) {
-  return <div className={`book-art art-${variant % 3} ${compact ? 'compact' : ''}`} aria-hidden="true"><svg viewBox="0 0 360 180" fill="none"><path d="M70 136V44c42-9 76-3 110 20 34-23 68-29 110-20v92c-42-9-76-3-110 20-34-23-68-29-110-20Z" stroke="currentColor" strokeWidth="1.5"/><path d="M180 65v90M83 53c31-3 59 3 83 17M83 67c31-3 59 3 83 17M83 81c31-3 59 3 60 4M194 72c24-14 52-20 83-17M194 87c24-14 52-20 83-17M194 102c24-14 52-20 83-17M194 117c24-14 52-20 58-17" stroke="currentColor" strokeWidth="1"/><circle cx="124" cy="110" r="13" stroke="currentColor"/><path d="m120 110 4-5 5 9" stroke="currentColor"/><path d="M307 34v20m-10-10h20" stroke="currentColor"/><circle cx="49" cy="120" r="3" fill="currentColor"/></svg></div>;
-}
-

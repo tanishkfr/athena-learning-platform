@@ -1,0 +1,181 @@
+{
+  "results": [
+    {
+      "name": "Signed-out Home presents purpose, sample discovery and sign-in",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Search navigates to matching samples",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Discovery format persists across reload",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Resource preview returns to query and format",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Unknown search has recovery action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Search recovery restores all eight samples",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Signed-out Library does not expose saved workspace as public discovery",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Dialog Escape restores trigger focus",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Project draft survives closing dialog",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Mock signup shows invalid-code error",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Deferred project creation resumes with original goal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "New project has honest empty resources and evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Text resource import updates project overview",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Project tab: Resources",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Project tab: Notes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Project tab: Goals",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Project tab: Insights",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Project tab: Overview",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Reading and contextual note workflow remains available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Project list layout persists after reload",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Project search also finds learning goals",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Project search empty state is recoverable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Project status filter shows only finished examples",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Finish project updates browser demo status",
+      "passed": true,
+      "detail": "Finished"
+    },
+    {
+      "name": "Library search finds saved sources",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Library filter empty state describes no matches",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Library clear restores saved sources",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Upload project chooser is a labelled dialog",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Provider flow remains explicitly simulated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Signed-out save resumes after sign-in",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Narrow mobile menu navigates and closes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Project dialog fits 320px",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Skip link is first keyboard target",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Skip link moves focus to main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Reduced-motion preference removes transitions",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "errors": [],
+  "createdRoute": "/projects/project-1792833807831-rv2q5"
+}
